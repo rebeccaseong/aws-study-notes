@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure.md",
+                "file": "AWS Services Structure/3 Databases, Caching & Analytics/ElastiCache Redis (complex data structures) vs Memcached (simple).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Services Structure"
+              "title": "ElastiCache Redis (complex data structures) vs Memcached (simple)"
+            }
+          },
+          {
+            "id": "c3465012ac66779f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS Services Structure/The Kinesis Cheat Sheet Which one to pick.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Kinesis Cheat Sheet Which one to pick"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,15 +221,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fadb429664145268",
+  "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure.md",
+    "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
+    "AWS Services Structure/3 Databases, Caching & Analytics/ElastiCache Redis (complex data structures) vs Memcached (simple).md",
+    "AWS Services Structure/4 Networking & Content Delivery/Route 53 - DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).md",
+    "AWS Services Structure/4 Networking & Content Delivery/Elastic Load Balancing (ELB).md",
+    "AWS Services Structure/7 Migration & Transfer/DataSync - Automated data transfer (NAS to S3).md",
+    "AWS Services Structure/5 Security, Identity & Compliance/CloudHSM (Hardware Security Module) - Dedicated hardware (compliance).md",
     "AWS Services Structure/1 Compute/EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved.md",
     "Untitled.md",
     "AWS Services Structure/1 Compute/ECS (Elastic Container Service) - Docker management.md",
-    "AWS Services Structure.md",
     "AWS Services Structure/9 Developer Tools",
-    "AWS Services Structure/WAF (Web Application Firewall) - Block SQL injection XSS.md",
-    "AWS Services Structure/SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO).md",
+    "AWS Services Structure/5 Security, Identity & Compliance/WAF (Web Application Firewall) - Block SQL injection XSS.md",
+    "AWS Services Structure/8 Application Integration/SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO).md",
     "AWS Services Structure/8 Application Integration",
     "AWS Services Structure/7 Migration & Transfer",
     "AWS Services Structure/6 Monitoring, Management & Governance",
@@ -225,25 +246,19 @@
     "AWS Services Structure/1 Compute",
     "AWS Services Structure/0 Concept",
     "AWS Services Structure/Global Accelerator - Static IP, improves performance via AWS backbone (not caching).md",
-    "AWS Services Structure/Comparation - Global Accelerator vs CloudFront.md",
-    "AWS Services Structure/Comparison - Security Groups vs NACLs.md",
-    "AWS Services Structure/Macie - PII Sensitive data discovery in S3.md",
-    "AWS Services Structure/EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2).md",
+    "AWS Services Structure/4 Networking & Content Delivery/Comparation - Global Accelerator vs CloudFront.md",
+    "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md",
+    "AWS Services Structure/5 Security, Identity & Compliance/Macie - PII Sensitive data discovery in S3.md",
+    "AWS Services Structure/2 Storage & File Systems/EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2).md",
     "AWS Services Structure/EBS (Elastic Block Store) Persistent, Network-atta/Availability Zone and Region.md",
-    "AWS Services Structure/FSx for Lustre.md",
-    "AWS Services Structure/S3 Transfer Acceleration (S3TA).md",
+    "AWS Services Structure/2 Storage & File Systems/FSx for Lustre.md",
+    "AWS Services Structure/2 Storage & File Systems/S3 Transfer Acceleration (S3TA).md",
     "AWS Services Structure/KMS (Key Management Service) -  Encryption keys (managed).md",
-    "AWS Services Structure/KMS (Key Management Service) - Encryption keys (managed).md",
-    "AWS Services Structure/Availability Zone and Region.md",
+    "AWS Services Structure/5 Security, Identity & Compliance/KMS (Key Management Service) - Encryption keys (managed).md",
+    "AWS Services Structure/0 Concept/Availability Zone and Region.md",
     "AWS Services Structure/WAF (Web Application Firewall) - (Block SQL injection, XSS).md",
-    "AWS Services Structure/CodePipeline - Orchestrate the flow.md",
-    "AWS Services Structure/CodeDeploy - Deploy to EC2, Lambda.md",
-    "AWS Services Structure/CodeBuild - Build and test.md",
-    "AWS Services Structure/CodeCommit - Git repo.md",
-    "AWS Services Structure/API Gateway - REST HTTP APIs, Throttling, API Keys.md",
-    "AWS Services Structure/SWF (Simple Workflow Service).md",
-    "AWS Services Structure/Step Functions - Visual workflow orchestration (State Machine).md",
-    "AWS Services Structure/Storage Cheat Sheet for SAA Exam.md",
+    "AWS Services Structure/9 Developer Tools/CodePipeline - Orchestrate the flow.md",
+    "AWS Services Structure/9 Developer Tools/CodeDeploy - Deploy to EC2, Lambda.md",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]

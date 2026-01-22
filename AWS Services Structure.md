@@ -28,7 +28,7 @@
             - [[FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP]]
         - Hybrid Storage:
 	        - [[Storage Gateway - File (S3), Volume (iSCSI), Tape (VTL)]]
-        - [[Storage Cheat Sheet for SAA Exam]]
+        - [[Cheat Sheet - Storage]]
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
 	        - [[RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance)]]
@@ -60,7 +60,7 @@
             - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
             - [[VPN vs Direct Connect - Public internet encrypted tunnel vs. Private physical fiber]]
         - **Delivery & Traffic:**
-            - [[Route 53 DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation)]]
+            - [[Route 53 - DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation)]]
             - [[CloudFront CDN (Content Delivery Network), caching at Edge]]
             - [[Global Accelerator - Static IP, improves performance via AWS backbone (not caching)]]
             - [[Comparation - Global Accelerator vs CloudFront]]
