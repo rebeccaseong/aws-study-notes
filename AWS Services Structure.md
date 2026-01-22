@@ -48,6 +48,7 @@
 	        - [[Kinesis Data Streams - Real-time ingestion, requires shard management (The Pipe)]]
 			- [[Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck)]]
 			- [[Kinesis Data Analytics - SQL Flink analysis inside the stream]]
+			- [[The Kinesis Cheat Sheet Which one to pick]]
 			- Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
         -  [[VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)]]
