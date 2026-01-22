@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws-study-notes/AWS Services Structure.md",
+                "file": "AWS Services Structure.md",
                 "mode": "source",
                 "source": false
               },
@@ -197,9 +197,13 @@
   },
   "active": "f4c29cc149a92c5b",
   "lastOpenFiles": [
+    "New Text Document.txt",
+    "Untitled.md",
+    "aws-study-notes/AWS Services Structure.md",
+    "aws-study-notes/AWS Services Structure/Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck).md",
+    "aws-study-notes/AWS Services Structure/Glue - Serverless ETL, Data Catalog.md",
     "aws-study-notes/AWS Services Structure/EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ.md",
     "aws-study-notes/AWS Services Structure/EKS (Elastic Kubernetes Service) - Kubernetes management.md",
-    "aws-study-notes/AWS Services Structure.md",
     "aws-study-notes/AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
     "aws-study-notes/AWS Services Structure/EBS (Elastic Block Store) Persistent, Network-atta/Availability Zone and Region.md",
     "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Lustre.md",
@@ -220,10 +224,6 @@
     "aws-study-notes/AWS Services Structure/CodeDeploy - Deploy to EC2, Lambda.md",
     "aws-study-notes/AWS Services Structure/CodePipeline - Orchestrate the flow.md",
     "aws-study-notes/AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
-    "aws-study-notes/AWS Services Structure/Config - What does my infrastructure look like (Compliance Rules).md",
-    "aws-study-notes/AWS Services Structure/DataSync - Automated data transfer (NAS to S3).md",
-    "aws-study-notes/AWS Services Structure/DMS (Database Migration Service) - Move DBs while keeping source live.md",
-    "aws-study-notes/AWS Services Structure/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
 }
