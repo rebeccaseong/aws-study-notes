@@ -144,19 +144,13 @@
             - [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](S3%20(Simple%20Storage%20Service)%20-%20Standard,%20Intelligent-Tiering,%20Glacier%20(Archive),%20Lifecycle%20Policies,%20Versioning.md)
         - Block Storage:
             - [**EBS (Elastic Block Store)**: Persistent, Network-attached (gp3, io2).](EBS%20(Elastic%20Block%20Store)%20-%20Persistent,%20Network-attached%20(gp3,%20io2).md)
-            
             - Instance Store: Ephemeral, High Random I/O, locally attached.
         - File Storage:
-            
             - [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)
-            
             - [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
-            
         - Hybrid Storage:
 	        - [**Storage Gateway**: File (S3), Volume (iSCSI), Tape (VTL).](AWS%20Services%20Structure/Storage%20Gateway%20File%20(S3),%20Volume%20(iSCSI),%20Tape%20(V%202eb50618cbb880e8acc0ea341241026b.md)
         - **Storage Cheat Sheet for SAA Exam**
-            
-            
             | **If the question mentions...** | **The answer is likely...** |
             | --- | --- |
             | Storing files, static website hosting, infinite scale | **S3** |
@@ -166,7 +160,7 @@
             | High-performance computing (HPC) or video rendering | **FSx for Lustre** |
             | Long-term, low-cost data archival | **S3 Glacier** |
             | Extreme performance (High Random I/O) or "Ephemeral" storage | Instance Store |
-            | Migrating on-premise VMware/Hyper-V disks to AWS | Storage Gateway (Volume) |
+            | Migrating on-premise VMware/Hyper-V disks to AWS | Storage Gateway (Volume)|
             | Replacing physical tape backups | Storage Gateway (Tape) |
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
@@ -182,30 +176,24 @@
 	        - [EMR (Elastic MapReduce)**:** Hadoop/Spark clusters, high maintenance.](EMR%20(Elastic%20MapReduce)%20-%20Hadoop%20Spark%20clusters,%20high%20maintenance.md)
 	        - [Glue**:** Serverless ETL, Data Catalog.](Glue%20-%20Serverless%20ETL,%20Data%20Catalog.md)
 	        - [**Athena: Serverless SQL on S3 files.**](Athena%20-%20Serverless%20SQL%20on%20S3%20files.md)
-            - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
+	        - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
         - Streaming Analytics (Real-Time): 
 	        - [**Kinesis Data Streams**: Real-time ingestion, requires shard management ("The Pipe").](Kinesis%20Data%20Streams%20-%20Real-time%20ingestion,%20requires%20shard%20management%20(The%20Pipe).md)
-            - [**Kinesis Data Firehose**: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").](Kinesis%20Data%20Firehose%20-%20Near%20real-time%20delivery%20to%20S3%20Redshift,%20zero%20admin,%20supports%20Lambda%20transformation%20(The%20Delivery%20Truck).md)
-            -  [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](Kinesis%20Data%20Analytics%20-%20SQL%20Flink%20analysis%20inside%20the%20stream.md)
-            - [The Kinesis Cheat Sheet: Which one to pick?](The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick.md)
-            - Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
+			- [**Kinesis Data Firehose**: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").](Kinesis%20Data%20Firehose%20-%20Near%20real-time%20delivery%20to%20S3%20Redshift,%20zero%20admin,%20supports%20Lambda%20transformation%20(The%20Delivery%20Truck).md)
+			- [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](Kinesis%20Data%20Analytics%20-%20SQL%20Flink%20analysis%20inside%20the%20stream.md)
+			- [The Kinesis Cheat Sheet: Which one to pick?](The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick.md)
+			- Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
-        
-        [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20-%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
-        
+        -  [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20-%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
         - Security Groups vs NACLs (Critical Comparison)
         - **Connectivity:**
             - **NAT Gateway:** Allows private subnets to talk to the internet.
             - **VPC Endpoints:** PrivateLink (Interface) vs. Gateway (S3/DynamoDB).
             - **VPC Peering:** Connect two VPCs.
             - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
-            
-            [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20-%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)
-            
+            - [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20-%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)   
         - **Delivery & Traffic:**
-            
             [Route 53**:** DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).](Route%2053%20DNS%20records%20(A,%20CNAME,%20Alias),%20Routing%20Policies%20(Failover,%20Latency,%20Geolocation).md)
-            
             [CloudFront**:** CDN (Content Delivery Network), caching at Edge.](CloudFront%20CDN%20(Content%20Delivery%20Network),%20caching%20at%20Edge.md)
             
             - **Global Accelerator:** Static IP, improves performance via AWS backbone (not caching).
