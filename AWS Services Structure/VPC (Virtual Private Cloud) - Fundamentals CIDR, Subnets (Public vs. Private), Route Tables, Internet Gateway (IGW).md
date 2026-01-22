@@ -2,9 +2,9 @@
 - **Core VPC Components**
     
     
-    ![image.png](VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Sub/image.png)
+    ![image.png](AWS%20Services%20Structure/4%20Networking%20&%20Content%20Delivery/VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Sub/image.png)
     
-    ![image.png](VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Sub/image%201.png)
+    ![image.png](image%201.png)
     
     | **Component** | **What It Is** | **Why It's Important (SAA Focus)** |
     | --- | --- | --- |
