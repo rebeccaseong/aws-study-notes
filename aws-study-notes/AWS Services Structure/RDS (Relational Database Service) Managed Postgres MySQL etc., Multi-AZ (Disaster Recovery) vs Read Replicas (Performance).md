@@ -1,5 +1,3 @@
-# RDS (Relational Database Service): Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).
-
 - **What is it? (1-Sentence Pitch):** A managed service that makes it easy to set up, operate, and scale a relational database in the cloud (supports engines like MySQL, PostgreSQL, MariaDB, Oracle, SQL Server).
 - Supported Engines: MySQL, PostgreSQL, MariaDB, Oracle, SQL Server.
 - **Core Concepts: High Availability vs. Read Scaling**

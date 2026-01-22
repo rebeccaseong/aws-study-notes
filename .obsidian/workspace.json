@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws-study-notes/AWS Services Structure/Trusted Advisor Best practice checklist 22f50618cbb880bbb7caf2e42ebaf11c.md",
+                "file": "aws-study-notes/AWS Services Structure/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trusted Advisor Best practice checklist 22f50618cbb880bbb7caf2e42ebaf11c"
+              "title": "RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance)"
             }
           }
         ]
@@ -197,10 +197,26 @@
   },
   "active": "f4c29cc149a92c5b",
   "lastOpenFiles": [
-    "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)..md",
-    "aws-study-notes/AWS Services Structure/VPN vs Direct Connect Public internet encrypted tunnel vs. Private physical fiber..md",
-    "aws-study-notes/AWS Services Structure/WAF (Web Application Firewall)(Block SQL injection, XSS).md",
-    "aws-study-notes/AWS Services Structur.md",
+    "aws-study-notes/AWS Services Structure/Redshift Data Warehouse, Columnar storage (OLAP).md",
+    "aws-study-notes/AWS Services Structure/Route 53 DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).md",
+    "aws-study-notes/AWS Services Structure/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md",
+    "aws-study-notes/AWS Services Structure/Secrets Manager - Rotate DB credentials automatically.md",
+    "aws-study-notes/AWS Services Structure/Shield - DDoS protection (Standard vs Advanced).md",
+    "aws-study-notes/AWS Services Structure/Snowball.md",
+    "aws-study-notes/AWS Services Structure.md",
+    "aws-study-notes/AWS Services Structure/SNS (Simple Notification Service) - Pub Sub, Notifications to Email SMS Lambda.md",
+    "aws-study-notes/AWS Services Structure/SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO).md",
+    "aws-study-notes/AWS Services Structure/Step Functions - Visual workflow orchestration (State Machine)..md",
+    "aws-study-notes/AWS Services Structure/Storage Gateway.md",
+    "aws-study-notes/AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
+    "aws-study-notes/AWS Services Structure/SWF (Simple Workflow Service).md",
+    "aws-study-notes/AWS Services Structure/Systems Manager (SSM) Patch Manager, Session Manager, Session Manager (No SSH needed)..md",
+    "aws-study-notes/AWS Services Structure/The Kinesis Cheat Sheet Which one to pick.md",
+    "aws-study-notes/AWS Services Structure/Transfer Family - FTP SFTP to S3.md",
+    "aws-study-notes/AWS Services Structure/Trusted Advisor - Best practice checklist.md",
+    "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)..md",
+    "aws-study-notes/AWS Services Structure/VPN vs Direct Connect - Public internet encrypted tunnel vs. Private physical fiber..md",
+    "aws-study-notes/AWS Services Structure/WAF (Web Application Firewall) - (Block SQL injection, XSS).md",
     "aws-study-notes/AWS Services Structure/EBS (Elastic Block Store) Persistent, Network-atta/Availability Zone and Region.md",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png",
     "aws-study-notes/AWS Services Structure/Athena Serverless SQL on S3 files.md",

@@ -1,5 +1,3 @@
-# SQS (Simple Queue Service): Decoupling, Queueing (Standard vs. FIFO).
-
 - **What is it? (1-Sentence Pitch):** A fully managed message queuing service that decouples application components, enabling them to scale independently and ensuring messages are not lost if a consumer fails.
 - **Standard vs. FIFO: The Critical Choice**
     

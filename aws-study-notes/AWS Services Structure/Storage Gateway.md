@@ -1,5 +1,3 @@
-# Storage Gateway
-
 - **What is it? (1-Sentence Pitch):** A hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage.
 - **Core Use Cases:** Extending your on-premises storage into the cloud for backup, disaster recovery, or tiering.
 - **Key Features & Concepts (Know the 3 types):**

@@ -1,5 +1,3 @@
-# Redshift: Data Warehouse, Columnar storage (OLAP).
-
 - **What is it? (1-Sentence Pitch):** A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and existing Business Intelligence (BI) tools.
 - **Core Use Cases:** Running complex analytical queries against large datasets for business intelligence, reporting, and data warehousing.
 - **Key Feature:** Uses **columnar storage**, which is extremely efficient for analytical queries that read a few columns from a massive table.

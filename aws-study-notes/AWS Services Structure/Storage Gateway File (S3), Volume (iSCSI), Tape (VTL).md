@@ -1,5 +1,3 @@
-# Storage Gateway: File (S3), Volume (iSCSI), Tape (VTL).
-
 - *Use this when the scenario involves **On-Premises** servers that need access to AWS storage.*
 - **S3 File Gateway**
     - **Interface:** NFS or SMB (File interface).[[**8**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2MzquJKJOOpLvbAlFf1OSuxXhQ_WQJfrAkP_Xa3-RKo7tHUcEO1KfpnqmGSj-aSfk-3vbm2AXnmPHutTyf1eW98I5siNVJ3ooMakMm2viERJ2Inieex_dfRu7NwVN88bvtvB-BG1JUB4RbgKpzQ-jtNtCIiMR4NuW9ujK9U4gj1AXhTpaAxy64PJN6Uw%3D)][[**10**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGO8dr25m8C1nIDx327U85L-iduzqr6X8tsHmKLOV4TNwzcgZNSi4euycgnfSpsbg8mIAF5PhqGfSO13TCRDAglpwootCCMUyQOXhpg4CoBdwCGFmVrNqDiGQZp5pPIxcyp1a6o6iE%3D)][[**13**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFv_Pq_O2wbl7sMUJO7fzqEmkZxVoZZm5qeEExkUKx_2G290lFialFW488nOSqlWtn0U1bNv3v2SKS6s6a9_TVSZEfYDYyhTq2XFFseLUZbtN_as95vmRyKvMoobMDPhzKJJkvcXtdVmoKPmLSaeLakfXwAWOTs5WOOXjJid4xRQDn009tOGY1lmuaZl5v_-EKqqv2kc3e8U-L-Xl6RglxjFBx8Vrk_RX7prKinGg%3D%3D)]

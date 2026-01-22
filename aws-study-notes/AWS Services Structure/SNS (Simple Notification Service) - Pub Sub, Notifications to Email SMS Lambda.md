@@ -1,5 +1,3 @@
-# SNS (Simple Notification Service): Pub/Sub, Notifications to Email/SMS/Lambda.
-
 - **1. The Elevator Pitch**
     - **1.1. What is it? (One-Liner):** Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
     - **1.2. Core Purpose & Analogy:**

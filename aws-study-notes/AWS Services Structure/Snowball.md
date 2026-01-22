@@ -1,5 +1,3 @@
-# Snowball
-
 - **What is it? (1-Sentence Pitch):** A petabyte-scale data transport solution that uses secure physical appliances to transfer large amounts of data into and out of AWS.
 - **Core Use Cases:** Use when a network transfer would be too slow, too expensive, or unreliable. Ideal for one-time bulk data migration.
 - **Key Features & Concepts:** Part of the "Snow Family."

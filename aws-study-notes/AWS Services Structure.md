@@ -131,25 +131,18 @@
             - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](AWS%20Services%20Structure/EKS%20(Elastic%20Kubernetes%20Service)%20Kubernetes%20manage%2022f50618cbb880958ca5d185bf5db690.md)
             - **Fargate:** Serverless compute for containers (Exam favorite).
         - **Serverless:**
-            
             [Lambda**:** Event-driven code, limits (15 min), Cold starts.](AWS%20Services%20Structure/Lambda%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20st%2022f50618cbb8800988acfdd20bbdab77.md)
-            
             - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
         - **Other:**
-            
             [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](AWS%20Services%20Structure/Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20ea%2022f50618cbb8808e8b77e593ea8e2923.md)
-            
             - **AWS Batch:** Batch computing (HPC) using Spot instances.
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
             - **Wavelength:** Ultra-low latency for 5G devices.
     - **2: Storage & File Systems:**
         - Object Storage:
-            
-            [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](AWS%20Services%20Structure/S3%20(Simple%20Storage%20Service)%20Standard,%20Intelligent-%2022f50618cbb88067a645eb9f0cf92d5a.md)
-            
+            [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](S3%20(Simple%20Storage%20Service)%20-%20Standard,%20Intelligent-Tiering,%20Glacier%20(Archive),%20Lifecycle%20Policies,%20Versioning.md)
         - Block Storage:
-            
             [**EBS (Elastic Block Store)**: Persistent, Network-attached (gp3, io2).](AWS%20Services%20Structure/EBS%20(Elastic%20Block%20Store)%20Persistent,%20Network-atta%2022f50618cbb88094b407c36ca4528f28.md)
             
             - Instance Store: Ephemeral, High Random I/O, locally attached.
@@ -180,7 +173,7 @@
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
             
-            [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](AWS%20Services%20Structure/RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%2022f50618cbb880b0a040ec511f10a521.md)
+            [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%20MySQL%20etc.,%20Multi-AZ%20(Disaster%20Recovery)%20vs%20Read%20Replicas%20(Performance).md)
             
             [**Aurora:** Cloud-native, high performance, Serverless v2, Global Database.](AWS%20Services%20Structure/Aurora%20Cloud-native,%20high%20performance,%20Serverless%20%2022f50618cbb8802ba6c3e1b40d5935fe.md)
             
@@ -195,7 +188,7 @@
             - **DAX:** Caching specifically for DynamoDB.
         - Batch Analytics (Big Data):
             
-            [**Redshift:** Data Warehouse, Columnar storage (OLAP).](AWS%20Services%20Structure/Redshift%20Data%20Warehouse,%20Columnar%20storage%20(OLAP)%2022f50618cbb880e8912efc4b32478752.md)
+            [**Redshift:** Data Warehouse, Columnar storage (OLAP).](Redshift%20Data%20Warehouse,%20Columnar%20storage%20(OLAP).md)
             
             [EMR (Elastic MapReduce)**:** Hadoop/Spark clusters, high maintenance.](AWS%20Services%20Structure/EMR%20(Elastic%20MapReduce)%20Hadoop%20Spark%20clusters,%20hig%2024750618cbb880878975ef2e84bc19b0.md)
             
@@ -212,12 +205,12 @@
             
             [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](AWS%20Services%20Structure/Kinesis%20Data%20Analytics%20SQL%20Flink%20analysis%20inside%20t%202eb50618cbb880828482d35ebc22c4fd.md)
             
-            [The Kinesis Cheat Sheet: Which one to pick?](AWS%20Services%20Structure/The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick%202eb50618cbb8808d892acbf001bb6681.md)
+            [The Kinesis Cheat Sheet: Which one to pick?](The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick.md)
             
             - Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
         
-        [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
+        [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20-%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
         
         - Security Groups vs NACLs (Critical Comparison)
         - **Connectivity:**
@@ -226,11 +219,11 @@
             - **VPC Peering:** Connect two VPCs.
             - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
             
-            [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)
+            [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20-%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)
             
         - **Delivery & Traffic:**
             
-            [Route 53**:** DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).](AWS%20Services%20Structure/Route%2053%20DNS%20records%20(A,%20CNAME,%20Alias),%20Routing%20Po%2022f50618cbb8809f9edde4cd712f6922.md)
+            [Route 53**:** DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).](Route%2053%20DNS%20records%20(A,%20CNAME,%20Alias),%20Routing%20Policies%20(Failover,%20Latency,%20Geolocation).md)
             
             [CloudFront**:** CDN (Content Delivery Network), caching at Edge.](AWS%20Services%20Structure/CloudFront%20CDN%20(Content%20Delivery%20Network),%20caching%2022f50618cbb8803d9686e8929d9aeda0.md)
             
@@ -254,13 +247,13 @@
             
             [CloudHSM **(Hardware Security Module):** Dedicated hardware (compliance).](AWS%20Services%20Structure/CloudHSM%20(Hardware%20Security%20Module)%20Dedicated%20hard%2022f50618cbb8809bac07e5ca4a97de64.md)
             
-            [**Secrets Manager:** Rotate DB credentials automatically.](AWS%20Services%20Structure/Secrets%20Manager%20Rotate%20DB%20credentials%20automaticall%2022f50618cbb88003922be9fe534ebb9e.md)
+            [**Secrets Manager:** Rotate DB credentials automatically.](Secrets%20Manager%20-%20Rotate%20DB%20credentials%20automatically.md)
             
             - **Systems Manager Parameter Store:** Store config/secrets (free tier).
             - **AWS Certificate Manager (ACM):** Free SSL/TLS certs for ALB, CloudFront, API Gateway.
         - **Protection Services:**
             
-            [Shield: DDoS protection (Standard vs. Advanced).](AWS%20Services%20Structure/Shield%20DDoS%20protection%20(Standard%20vs%20Advanced)%2022f50618cbb8801fbf18d83b7d6c93d4.md)
+            [Shield: DDoS protection (Standard vs. Advanced).](Shield%20-%20DDoS%20protection%20(Standard%20vs%20Advanced).md)
             
             [WAF **(Web Application Firewall)**(Block SQL injection/XSS)](AWS%20Services%20Structure/WAF%20(Web%20Application%20Firewall)(Block%20SQL%20injection%2022f50618cbb880b48efadab947be6248.md)
             
@@ -282,13 +275,13 @@
             
             [Config**:** "What does my infrastructure look like?" (Compliance/Rules).](AWS%20Services%20Structure/Config%20What%20does%20my%20infrastructure%20look%20like%20(Comp%2022f50618cbb880c8b456d34fc04e0b71.md)
             
-            [Trusted Advisor**:** Best practice checklist.](AWS%20Services%20Structure/Trusted%20Advisor%20Best%20practice%20checklist%2022f50618cbb880bbb7caf2e42ebaf11c.md)
+            [Trusted Advisor**:** Best practice checklist.](Trusted%20Advisor%20-%20Best%20practice%20checklist.md)
             
         - **Management:**
             
             [**CloudFormation:** Infrastructure as Code (JSON/YAML).](AWS%20Services%20Structure/CloudFormation%20Infrastructure%20as%20Code%20(JSON%20YAML)%2022f50618cbb880eeba29fb3cbc7d5076.md)
             
-            [**Systems Manager (SSM):** Patch Manager, Session Manager (No SSH needed).](AWS%20Services%20Structure/Systems%20Manager%20(SSM)%20Patch%20Manager,%20Session%20Manag%2022f50618cbb88003a1a3c338838836bd.md)
+            [**Systems Manager (SSM):** Patch Manager, Session Manager (No SSH needed).](Systems%20Manager%20(SSM)%20Patch%20Manager,%20Session%20Manager,%20Session%20Manager%20(No%20SSH%20needed)..md)
             
             [**Organizations & Control Tower:** SCPs (Service Control Policies), Consolidated Billing.](AWS%20Services%20Structure/Organizations%20&%20Control%20Tower%20SCPs%20(Service%20Contro%2022f50618cbb8800fa96cf72ac5a11db6.md)
             
@@ -307,18 +300,18 @@
             
             [DataSync**:** Automated data transfer (NAS to S3).](AWS%20Services%20Structure/DataSync%20Automated%20data%20transfer%20(NAS%20to%20S3)%2022f50618cbb880279c65e826f4bf6659.md)
             
-            [Transfer Family**:** FTP/SFTP to S3.](AWS%20Services%20Structure/Transfer%20Family%20FTP%20SFTP%20to%20S3%2022f50618cbb880d29833c2f4a54b0df8.md)
+            [Transfer Family**:** FTP/SFTP to S3.](Transfer%20Family%20-%20FTP%20SFTP%20to%20S3.md)
             
-            [Snowball](AWS%20Services%20Structure/Snowball%2022f50618cbb8801d963edf9fe4c62966.md)
+            [Snowball](Snowball.md)
             
-            [Storage Gateway](AWS%20Services%20Structure/Storage%20Gateway%2022f50618cbb8804d8291cb5db9949e66.md)
+            [Storage Gateway](Storage%20Gateway.md)
             
     - **8: Application Integration:**
         - **Messaging:**
             
             [SQS **(Simple Queue Service):** Decoupling, Queueing (Standard vs. FIFO).](AWS%20Services%20Structure/SQS%20(Simple%20Queue%20Service)%20Decoupling,%20Queueing%20(S%2022f50618cbb88087abbaf358d2fa6fe1.md)
             
-            [SNS **(Simple Notification Service):** Pub/Sub, Notifications to Email/SMS/Lambda.](AWS%20Services%20Structure/SNS%20(Simple%20Notification%20Service)%20Pub%20Sub,%20Notific%2022f50618cbb880a19ad0c1573652a066.md)
+            [SNS **(Simple Notification Service):** Pub/Sub, Notifications to Email/SMS/Lambda.](SNS%20(Simple%20Notification%20Service)%20-%20Pub%20Sub,%20Notifications%20to%20Email%20SMS%20Lambda.md)
             
             - **Amazon MQ:** Broker for industry standards (MQTT, AMQP) - "Lift and shift" legacy apps.
         - **Events & Workflow:**
@@ -327,7 +320,7 @@
             
             [Step Functions**:** Visual workflow orchestration (State Machine).](AWS%20Services%20Structure/Step%20Functions%20Visual%20workflow%20orchestration%20(Stat%2022f50618cbb88018956eebd11475b339.md)
             
-            [SWF **(Simple Workflow Service)**](AWS%20Services%20Structure/SWF%20(Simple%20Workflow%20Service)%2022f50618cbb880688420c2233121fd1f.md)
+            [SWF **(Simple Workflow Service)**](SWF%20(Simple%20Workflow%20Service).md)
             
             [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](API%20Gateway%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys.md)
             

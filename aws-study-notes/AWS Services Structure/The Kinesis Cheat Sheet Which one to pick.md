@@ -1,5 +1,3 @@
-# The Kinesis Cheat Sheet: Which one to pick?
-
 1. **Kinesis Data Firehose (Amazon Data Firehose)**
     - **Best for:** "Load data into S3 / Redshift / OpenSearch / Splunk."
     - **Key Phrase:** "Least administrative overhead," "Easiest way to load streaming data."

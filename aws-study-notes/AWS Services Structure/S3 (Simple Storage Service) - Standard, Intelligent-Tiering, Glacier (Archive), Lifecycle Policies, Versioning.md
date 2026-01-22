@@ -1,5 +1,3 @@
-# S3 (Simple Storage Service): Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.
-
 - **What is it? (1-Sentence Pitch):** Amazon S3 is a secure, durable, and infinitely scalable **object storage** service, designed to store and retrieve any amount of data, for any use case, from anywhere on the internet.
 - **Core S3 Concepts (The Object Model)**
     - **Bucket:** A container for objects. Bucket names are **globally unique**. Think of it as a top-level folder.

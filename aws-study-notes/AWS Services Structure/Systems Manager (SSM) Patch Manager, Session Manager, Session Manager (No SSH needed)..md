@@ -1,5 +1,3 @@
-# Systems Manager (SSM): Patch Manager, Session Manager (No SSH needed).
-
 - **What is it? (1-Sentence Pitch):** AWS Systems Manager (SSM) is a unified operational toolkit that allows you to securely manage, automate, and gain insights into your fleet of servers (both EC2 and on-premises) without needing to use bastion hosts or direct SSH/RDP access.
 - **How it Works (The Prerequisites)**
     - For SSM to manage an instance (called a "Managed Instance"), three things are required. This is a common source of troubleshooting.
@@ -7,8 +5,6 @@
         2. **IAM Instance Profile:** The EC2 instance must have an IAM Role attached with the necessary permissions. The standard managed policy is **AmazonSSMManagedInstanceCore**.
         3. **Network Connectivity:** The instance must be able to communicate with the SSM service endpoints. This can be via the internet (e.g., in a public subnet or through a NAT Gateway) or, more securely, via **VPC Endpoints**.
 - **Key SSM Capabilities (The Components)**
-    
-    
     | **Capability** | **What it is** | **Key Use Case & Exam Keywords** |
     | --- | --- | --- |
     | **Session Manager** | Secure, browser-based shell or CLI access to your instances. | **Replacing Bastion Hosts.** "Securely access a private EC2 instance without opening SSH/RDP ports." All sessions can be logged to S3 or CloudWatch for auditing. |
@@ -19,8 +15,6 @@
     | **Inventory** | Automatically collects metadata from your managed instances. | "Get a list of all instances running a specific version of NGINX" or "Find all servers missing a specific Windows patch." |
     | **Maintenance Windows** | Defines a scheduled window of time to perform potentially disruptive actions. | "Define a 4-hour window on Saturday nights where it is safe for Patch Manager and Run Command to execute." |
 - **Parameter Store vs. Secrets Manager**
-    
-    
     | **Feature** | **SSM Parameter Store** | **AWS Secrets Manager** |
     | --- | --- | --- |
     | **Cost** | **Standard tier is free.** Higher tier has a cost. | **Costs per secret per month** + per API call. |
@@ -37,8 +31,6 @@
     - SSM is not just for EC2. It can manage **on-premises servers** and virtual machines in other clouds (e.g., Azure, GCP).
     - **Process:** You generate an **Activation Code** in SSM. You then install the SSM Agent on the on-prem server and run a command with the activation code. The server registers with SSM and becomes a "Managed Instance," just like an EC2 instance.
 - Exam Cheat Sheet
-    
-    
     | **If the question asks for...** | **The answer is almost always...** | **Key Concept** |
     | --- | --- | --- |
     | Securely accessing private instances **without SSH/RDP** | **SSM Session Manager** | Eliminates the need for bastion hosts and open inbound ports (22, 3389). |

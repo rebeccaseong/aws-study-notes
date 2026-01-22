@@ -1,5 +1,3 @@
-# Route 53: DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).
-
 - **What is it? (1-Sentence Pitch):** A highly available and scalable cloud Domain Name System (DNS) web service.
 - **Core Use Cases:**
     - Registering domain names (e.g., mycoolapp.com).
