@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3d4f7d363011c61",
+        "id": "cdaea373452670e6",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c29cc149a92c5b",
+            "id": "95056709ce1dccda",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,11 +192,13 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f4c29cc149a92c5b",
+  "active": "95056709ce1dccda",
   "lastOpenFiles": [
+    "AWS Services Structure.md",
     "New Text Document.txt",
     "Untitled.md",
     "aws-study-notes/AWS Services Structure.md",
