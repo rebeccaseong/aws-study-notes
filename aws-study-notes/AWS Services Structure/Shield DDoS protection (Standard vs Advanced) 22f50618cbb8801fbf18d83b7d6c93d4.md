@@ -1,0 +1,6 @@
+# Shield: DDoS protection (Standard vs. Advanced).
+
+- **What is it? (1-Sentence Pitch):** A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
+- **Key Features & Concepts:**
+    - **Shield Standard:** Free and automatically enabled for all AWS customers. Protects against common, network-layer DDoS attacks.
+    - **Shield Advanced:** A paid service providing enhanced protections for applications on EC2, ELB, CloudFront, and Route 53. Includes 24/7 access to the AWS DDoS Response Team (DRT) and cost protection against usage spikes.

@@ -1,0 +1,4 @@
+# Secrets Manager: Rotate DB credentials automatically.
+
+- **What is it? (1-Sentence Pitch):** A service to help you protect secrets needed to access your applications, services, and IT resources, with the key feature of automatic rotation.
+- **Key Distinction:** Very similar to SSM Parameter Store's secure string, but Secrets Manager offers **automatic secret rotation** (e.g., changing a database password every 30 days automatically). This is its main advantage and a common exam question topic.

@@ -1,0 +1,5 @@
+# MGN (Application Migration Service): Lift-and-shift servers.
+
+- **What is it? (1-Sentence Pitch):** The primary migration service recommended for lifting-and-shifting (rehosting) applications to AWS.
+- **Core Use Cases:** Migrating physical, virtual, or other cloud servers to AWS with minimal downtime. It continuously replicates the source machines into your AWS account.
+- **Where to put it:** **Category 7: Migration & Transfer**. This is the modern successor to CloudEndure Migration.

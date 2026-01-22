@@ -1,0 +1,5 @@
+# CloudHSM (Hardware Security Module): Dedicated hardware (compliance).
+
+- **What is it? (1-Sentence Pitch):** A cloud-based hardware security module that lets you generate and use your own encryption keys on dedicated, FIPS 140-2 Level 3 validated HSMs.
+- **Core Use Cases:** For workloads with strict contractual or regulatory compliance requirements for key management that forbid using shared hardware.
+- **Key Distinction:** **KMS** is a multi-tenant, managed service. **CloudHSM** provides you with dedicated, single-tenant hardware that you control. Choose CloudHSM only when compliance mandates it.

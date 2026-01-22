@@ -1,0 +1,17 @@
+# Lambda: Event-driven code, limits (15 min), Cold starts.
+
+- **What is it? (1-Sentence Pitch):** A serverless compute service that runs your code in response to events without you needing to manage any servers.
+- **Core Use Cases:**
+    - Event-driven data processing (e.g., process an image when it's uploaded to S3).
+    - Building backend APIs for web/mobile apps (via API Gateway).
+    - Scheduled tasks (via EventBridge/CloudWatch Events).
+- **Key Features & Concepts:**
+    - **Event-Driven:** A function is triggered by an event source (S3, DynamoDB, API Gateway, etc.).
+    - **Serverless:** No servers to provision or manage. AWS handles scaling, patching, and availability.
+    - **Configuration:** You only configure memory, which also allocates proportional CPU. Max timeout is 15 minutes.
+    - **Concurrency:** The number of executions of your function that can run simultaneously.
+- **Integration:**
+    - The "glue" of AWS; integrates with over 200 AWS services.
+    - Often triggered by **S3, SQS, SNS, DynamoDB Streams, and API Gateway**.
+    - Writes logs to **CloudWatch Logs**.
+    - Can be orchestrated by **Step Functions**.

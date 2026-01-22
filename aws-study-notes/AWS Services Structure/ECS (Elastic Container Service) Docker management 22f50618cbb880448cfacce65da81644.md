@@ -1,0 +1,14 @@
+# ECS (Elastic Container Service): Docker management.
+
+- **What is it? (1-Sentence Pitch):** A highly scalable, high-performance container orchestration service that supports Docker containers.
+- **Core Use Cases:**
+    - Running and scaling microservices architectures.
+    - Deploying containerized applications.
+- **Key Features & Concepts:**
+    - **Task Definition:** A blueprint for your application (which Docker image, CPU/memory, ports, etc.).
+    - **Service:** Maintains a specified number of running tasks.
+    - **Cluster:** A logical grouping of tasks or services.
+    - **Launch Types (CRITICAL DISTINCTION):**
+        - **EC2 Launch Type:** You manage the underlying cluster of EC2 instances. More control over networking and instance types.
+        - **Fargate Launch Type:** Serverless. AWS manages the underlying infrastructure for you. You just define the container and run it.
+- **Key Distinction:** **ECS vs. Lambda:** Use ECS for long-running services or applications that need to be containerized. Use Lambda for short-lived, event-driven functions.

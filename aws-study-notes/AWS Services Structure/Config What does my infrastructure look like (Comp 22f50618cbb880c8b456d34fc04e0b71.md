@@ -1,0 +1,8 @@
+# Config: "What does my infrastructure look like?" (Compliance/Rules).
+
+- **What is it? (1-Sentence Pitch):** A service that lets you assess, audit, and evaluate the configurations of your AWS resources over time.
+- **Core Use Cases:**
+    - Continuously monitoring for compliance with your desired configurations.
+    - Getting a history of configuration changes for a resource.
+    - Answering questions like, "Show me all S3 buckets that are publicly accessible."
+- **Key Distinction:** **CloudTrail** tells you *who* made a change. **Config** tells you *what* the configuration of the resource looked like before and after the change and if it's compliant.

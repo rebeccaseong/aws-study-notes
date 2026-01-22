@@ -1,0 +1,4 @@
+# Transfer Family: FTP/SFTP to S3.
+
+- **What is it? (1-Sentence Pitch):** A fully managed service for file transfers directly into and out of Amazon S3 using SFTP, FTPS, and FTP protocols.
+- **Core Use Cases:** Providing a secure and standard way for third parties or legacy applications to upload/download files to S3 without you having to manage any FTP servers.
