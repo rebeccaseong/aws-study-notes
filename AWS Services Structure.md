@@ -27,7 +27,7 @@
             - [[EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ]]
             - [[FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP]]
         - Hybrid Storage:
-	        - [[Storage Gateway File (S3), Volume (iSCSI), Tape (VTL)]]]
+	        - [[Storage Gateway - File (S3), Volume (iSCSI), Tape (VTL)]]]
         - [[Storage Cheat Sheet for SAA Exam]]
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
@@ -88,39 +88,39 @@
 	        - [[CloudWatch - Metrics, Alarms, Logs (Performance)]]
             - **X-Ray:** Tracing and debugging distributed apps/Lambda.
         - **Audit & Governance:**
-	        - [CloudTrail**:** "Who did what?" (API Auditing).](CloudTrail%20-%20Who%20did%20what%20(API%20Auditing).md)
-	        - [Config**:** "What does my infrastructure look like?" (Compliance/Rules).](AWS%20Services%20Structure/Config%20What%20does%20my%20infrastructure%20look%20like%20(Comp%2022f50618cbb880c8b456d34fc04e0b71.md)
-	        - [Trusted Advisor**:** Best practice checklist.](Trusted%20Advisor%20-%20Best%20practice%20checklist.md)
+	        - [[CloudTrail - Who did what (API Auditing)]]
+	        - [[Config - What does my infrastructure look like (Compliance Rules)]]
+	        - [[Trusted Advisor - Best practice checklist]]
         - **Management:
-	        - [**CloudFormation:** Infrastructure as Code (JSON/YAML).](CloudFormation%20-%20Infrastructure%20as%20Code%20(JSON%20YAML).md)
-	        - [**Systems Manager (SSM):** Patch Manager, Session Manager (No SSH needed).](Systems%20Manager%20(SSM)%20Patch%20Manager,%20Session%20Manager,%20Session%20Manager%20(No%20SSH%20needed)..md)
-	        - [**Organizations & Control Tower:** SCPs (Service Control Policies), Consolidated Billing.](AWS%20Services%20Structure/Organizations%20&%20Control%20Tower%20SCPs%20(Service%20Contro%2022f50618cbb8800fa96cf72ac5a11db6.md)
+	        - [[CloudFormation - Infrastructure as Code (JSON YAML)]]
+	        - [[Systems Manager (SSM) - Patch Manager, Session Manager, Session Manager (No SSH needed)]]
+	        - [[Organizations & Control Tower - SCPs (Service Control Policies), Consolidated Billing]]
             - **Cost Explorer & Compute Optimizer:** Saving money.
             - **AWS Budgets:** Set alerts when costs exceed thresholds.
     - **7: Migration & Transfer:**
         - **Migration:**
-            [DMS **(Database Migration Service):** Move DBs while keeping source live.](DMS%20(Database%20Migration%20Service)%20-%20Move%20DBs%20while%20keeping%20source%20live.md)
-            [**MGN (Application Migration Service):** Lift-and-shift servers.](MGN%20(Application%20Migration%20Service)%20-%20Lift-and-shift%20servers.md)
+	        - [[DMS (Database Migration Service) - Move DBs while keeping source live]]
+	        - [[MGN (Application Migration Service) - Lift-and-shift servers]]
             - **Schema Conversion Tool (SCT):** Convert Oracle to Aurora.
         - **Transfer:**
             - **Snow Family:** Physical devices (Snowcone, Snowball Edge, Snowmobile) for massive data.
-            - [DataSync**:** Automated data transfer (NAS to S3).](DataSync%20-%20Automated%20data%20transfer%20(NAS%20to%20S3).md)
-            - [Transfer Family**:** FTP/SFTP to S3.](Transfer%20Family%20-%20FTP%20SFTP%20to%20S3.md)
-            - [Snowball](Snowball.md)
-            - [Storage Gateway](Storage%20Gateway.md)
+            - [[DataSync - Automated data transfer (NAS to S3)]]
+            - [[Transfer Family - FTP SFTP to S3]]
+            - [[Snowball]]
+            - [[Storage Gateway]]
     - **8: Application Integration:**
         - **Messaging:**
-	        - [SQS **(Simple Queue Service):** Decoupling, Queueing (Standard vs. FIFO).](AWS%20Services%20Structure/SQS%20(Simple%20Queue%20Service)%20Decoupling,%20Queueing%20(S%2022f50618cbb88087abbaf358d2fa6fe1.md)
-	        - [SNS **(Simple Notification Service):** Pub/Sub, Notifications to Email/SMS/Lambda.](SNS%20(Simple%20Notification%20Service)%20-%20Pub%20Sub,%20Notifications%20to%20Email%20SMS%20Lambda.md)
+	        - [[SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO)]]
+	        - [[SNS (Simple Notification Service) - Pub Sub, Notifications to Email SMS Lambda]]
             - **Amazon MQ:** Broker for industry standards (MQTT, AMQP) - "Lift and shift" legacy apps.
         - **Events & Workflow:
-	        - [EventBridge**:** Serverless Event Bus, Rules, Scheduler.](EventBridge%20-%20Serverless%20Event%20Bus,%20Rules,%20Scheduler.md)
-	        - [Step Functions**:** Visual workflow orchestration (State Machine).](AWS%20Services%20Structure/Step%20Functions%20Visual%20workflow%20orchestration%20(Stat%2022f50618cbb88018956eebd11475b339.md)
-	        - [SWF **(Simple Workflow Service)**](SWF%20(Simple%20Workflow%20Service).md)
-	        - [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](API%20Gateway%20-%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys.md)
+	        - [[EventBridge - Serverless Event Bus, Rules, Scheduler]]
+	        - [[Step Functions - Visual workflow orchestration (State Machine)]]
+	        - [[SWF (Simple Workflow Service)]]
+	        - [[API Gateway - REST HTTP APIs, Throttling, API Keys]]
     - **9: Developer Tools:**
         - **CI/CD Pipeline:**
-	        - [CodeCommit**:** Git repo.](CodeCommit%20-%20Git%20repo.md)
-	        - [CodeBuild**:** Build and test.](CodeBuild%20Build%20and%20test.md)
-	        - [CodeDeploy**:** Deploy to EC2/Lambda.](CodeDeploy%20-%20Deploy%20to%20EC2,%20Lambda.md)
-	        - [CodePipeline**:** Orchestrate the flow.](CodePipeline%20-%20Orchestrate%20the%20flow.md)
+	        - [[CodeCommit - Git repo]]
+	        - [[CodeBuild - Build and test]]
+	        - [[CodeDeploy - Deploy to EC2, Lambda]]
+	        - [[CodePipeline - Orchestrate the flow]]
