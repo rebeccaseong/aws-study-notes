@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure/The Kinesis Cheat Sheet Which one to pick.md",
+                "file": "AWS Services Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Kinesis Cheat Sheet Which one to pick"
+              "title": "AWS Services Structure"
             }
           }
         ],
@@ -221,9 +221,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3465012ac66779f",
+  "active": "fadb429664145268",
   "lastOpenFiles": [
+    "AWS Services Structure/4 Networking & Content Delivery/Global Accelerator - Static IP, improves performance via AWS backbone (not caching).md",
     "AWS Services Structure.md",
+    "AWS Services Structure/3 Databases, Caching & Analytics/Cheat Sheet - Kinesis - Which one to pick.md",
     "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/ElastiCache Redis (complex data structures) vs Memcached (simple).md",
     "AWS Services Structure/4 Networking & Content Delivery/Route 53 - DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).md",
@@ -245,7 +247,6 @@
     "AWS Services Structure/2 Storage & File Systems",
     "AWS Services Structure/1 Compute",
     "AWS Services Structure/0 Concept",
-    "AWS Services Structure/Global Accelerator - Static IP, improves performance via AWS backbone (not caching).md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparation - Global Accelerator vs CloudFront.md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md",
     "AWS Services Structure/5 Security, Identity & Compliance/Macie - PII Sensitive data discovery in S3.md",
@@ -258,7 +259,6 @@
     "AWS Services Structure/0 Concept/Availability Zone and Region.md",
     "AWS Services Structure/WAF (Web Application Firewall) - (Block SQL injection, XSS).md",
     "AWS Services Structure/9 Developer Tools/CodePipeline - Orchestrate the flow.md",
-    "AWS Services Structure/9 Developer Tools/CodeDeploy - Deploy to EC2, Lambda.md",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
