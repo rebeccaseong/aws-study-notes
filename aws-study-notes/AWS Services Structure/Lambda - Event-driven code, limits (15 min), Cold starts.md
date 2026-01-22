@@ -1,5 +1,3 @@
-# Lambda: Event-driven code, limits (15 min), Cold starts.
-
 - **What is it? (1-Sentence Pitch):** A serverless compute service that runs your code in response to events without you needing to manage any servers.
 - **Core Use Cases:**
     - Event-driven data processing (e.g., process an image when it's uploaded to S3).

@@ -1,5 +1,3 @@
-# EKS (Elastic Kubernetes Service): Kubernetes management.
-
 - **What is it? (1-Sentence Pitch):** A managed service that makes it easy to run the open-source Kubernetes container orchestration system on AWS.
 - **Core Use Cases:**
     - For organizations that are already using Kubernetes or want to use the open-source Kubernetes ecosystem and tooling.

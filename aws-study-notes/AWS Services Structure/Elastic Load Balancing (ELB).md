@@ -1,5 +1,3 @@
-# Elastic Load Balancing (ELB)
-
 - **What is it? (1-Sentence Pitch):** A service that automatically distributes incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses, to increase fault tolerance and availability.
 - **Core Use Cases:**
     - Preventing a single EC2 instance from being a point of failure.

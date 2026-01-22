@@ -1,5 +1,3 @@
-# Organizations & Control Tower: SCPs (Service Control Policies), Consolidated Billing.
-
 - **What is it? (1-Sentence Pitch):** AWS Organizations helps you centrally govern and manage multiple AWS accounts, while Control Tower provides the easiest way to set up and govern a new, secure, multi-account AWS environment based on best practices.
 - **Core Use Cases:**
     - Managing billing for multiple accounts from one master account.

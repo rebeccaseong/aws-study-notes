@@ -1,5 +1,3 @@
-# Kinesis Data Streams: Real-time ingestion, requires shard management ("The Pipe").
-
 - **What is it? (1-Sentence Pitch):** Kinesis Data Streams is a massively scalable and durable service for ingesting and processing large streams of data records in **real-time**, with guaranteed ordering for records that share the same partition key.
 - **Core Kinesis Components (The Building Blocks)**
     - **Data Stream:** The main resource, which is a collection of one or more shards (e.g., iot-sensor-data-stream).

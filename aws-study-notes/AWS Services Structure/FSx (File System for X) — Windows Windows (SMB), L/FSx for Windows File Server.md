@@ -1,5 +1,3 @@
-# FSx for Windows File Server
-
 - Provides a fully managed native Windows file system using the **SMB (Server Message Block) protocol**. **Use when** you need to lift-and-shift a Windows application that relies on a shared SMB file share.
 - It is built on Windows Server and directly supports all the features of a Windows file environment, including:
     - **Distributed File System (DFS):** It natively supports both DFS Namespaces and DFS Replication. This allows the organization to extend its existing on-premises DFS namespace into AWS, creating a seamless, unified file system view for users and applications in the hybrid environment.

@@ -1,5 +1,3 @@
-# EMR (Elastic MapReduce): Hadoop/Spark clusters, high maintenance.
-
 - **What is it? (1-Sentence Pitch):** A managed cluster platform that simplifies running big data frameworks, such as Apache Spark and Hadoop, to process and analyze vast amounts of data.
     - **Apache**
         - **Apache Spark** or **Apache Hadoop:** These are famous projects for Big Data processing.

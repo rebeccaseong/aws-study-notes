@@ -1,5 +1,3 @@
-# KMS (Key Management Service): Encryption keys (managed).
-
 - **What is it? (1-Sentence Pitch):** KMS is a managed service that makes it easy for you to create and **control the encryption keys** used to protect your data, while its use of FIPS 140-2 validated Hardware Security Modules (HSMs) helps you meet compliance requirements.
 - **Exam Rule of Thumb:** If a question mentions needing to **control key rotation**, **define specific IAM permissions for the key**, or **share the key with another account**, the answer is always a **Customer Managed Key**.
 - **The Core Concept: Envelope Encryption**

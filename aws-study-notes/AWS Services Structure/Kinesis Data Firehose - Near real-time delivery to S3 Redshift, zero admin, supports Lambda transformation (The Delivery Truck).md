@@ -1,5 +1,3 @@
-# Kinesis Data Firehose: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").
-
 - Kinesis Data Firehose is a **fully managed** service that reliably captures, transforms, and **delivers** streaming data to destinations like Amazon S3, Amazon Redshift, and Amazon OpenSearch Service with no ongoing administration.
 - **2. Core Firehose Concepts (The Building Blocks)**
     - **Delivery Stream:** The primary resource in Firehose. You configure a source and a destination for your data.

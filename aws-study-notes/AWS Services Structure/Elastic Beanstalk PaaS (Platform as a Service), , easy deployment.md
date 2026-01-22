@@ -1,5 +1,3 @@
-# Elastic Beanstalk: PaaS (Platform as a Service), easy deployment.
-
 - **What is it? (1-Sentence Pitch):** A Platform-as-a-Service (PaaS) that lets developers easily deploy and manage web applications without worrying about the underlying infrastructure.
 - **Core Use Cases:**
     - Rapidly deploying a standard web application (e.g., Java, .NET, Node.js, Python, Ruby).

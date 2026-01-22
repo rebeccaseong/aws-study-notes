@@ -1,1 +1,0 @@
-# Kinesis Data Analytics: SQL/Flink analysis inside the stream.

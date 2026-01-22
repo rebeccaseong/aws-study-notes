@@ -1,5 +1,3 @@
-# IAM (Identity and Access Management): Users, Roles, Policies, MFA.
-
 - **What is it? (1-Sentence Pitch):** The core security service that centrally manages access to all AWS services and resources.
 - **Core Use Cases:** Controlling who (or what) can perform which actions on which AWS resources.
 - **Key Features & Concepts:**

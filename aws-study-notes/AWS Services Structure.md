@@ -128,13 +128,13 @@
         - **Auto Scaling Groups (ASG):** Scaling policies (Target Tracking), Launch Templates.
         - **Containers:**
             - [ECS **(Elastic Container Service):** Docker management.](AWS%20Services%20Structure/ECS%20(Elastic%20Container%20Service)%20Docker%20management%2022f50618cbb880448cfacce65da81644.md)
-            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](AWS%20Services%20Structure/EKS%20(Elastic%20Kubernetes%20Service)%20Kubernetes%20manage%2022f50618cbb880958ca5d185bf5db690.md)
+            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](EKS%20(Elastic%20Kubernetes%20Service)%20-%20Kubernetes%20management%2022f50618cbb880958ca5d185bf5db690.md)
             - **Fargate:** Serverless compute for containers (Exam favorite).
         - **Serverless:**
-            [Lambda**:** Event-driven code, limits (15 min), Cold starts.](AWS%20Services%20Structure/Lambda%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20st%2022f50618cbb8800988acfdd20bbdab77.md)
+            [Lambda**:** Event-driven code, limits (15 min), Cold starts.](Lambda%20-%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20starts.md)
             - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
         - **Other:**
-            [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](AWS%20Services%20Structure/Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20ea%2022f50618cbb8808e8b77e593ea8e2923.md)
+            [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20,%20easy%20deployment.md)
             - **AWS Batch:** Batch computing (HPC) using Spot instances.
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
@@ -150,7 +150,7 @@
             
             [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)%20%E2%80%94%20Linux%20Shared%20Linux%20(NF%2022f50618cbb88007ac88f387571fdeb3.md)
             
-            [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](AWS%20Services%20Structure/FSx%20(File%20System%20for%20X)%20%E2%80%94%20Windows%20Windows%20(SMB),%20L%2022f50618cbb880a18478ce94efa996cb.md)
+            [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
             
         - Hybrid Storage:
             
@@ -183,27 +183,27 @@
             
         - **Caching:**
             
-            [**ElastiCache:** Redis (complex data structures) vs. Memcached (simple).](AWS%20Services%20Structure/ElastiCache%20Redis%20(complex%20data%20structures)%20vs%20Mem%2022f50618cbb88040a00dfdaa236b9d40.md)
+            [**ElastiCache:** Redis (complex data structures) vs. Memcached (simple).](ElastiCache%20Redis%20(complex%20data%20structures)%20vs%20Memcached%20(simple).md)
             
             - **DAX:** Caching specifically for DynamoDB.
         - Batch Analytics (Big Data):
             
             [**Redshift:** Data Warehouse, Columnar storage (OLAP).](Redshift%20Data%20Warehouse,%20Columnar%20storage%20(OLAP).md)
             
-            [EMR (Elastic MapReduce)**:** Hadoop/Spark clusters, high maintenance.](AWS%20Services%20Structure/EMR%20(Elastic%20MapReduce)%20Hadoop%20Spark%20clusters,%20hig%2024750618cbb880878975ef2e84bc19b0.md)
+            [EMR (Elastic MapReduce)**:** Hadoop/Spark clusters, high maintenance.](EMR%20(Elastic%20MapReduce)%20-%20Hadoop%20Spark%20clusters,%20high%20maintenance.md)
             
-            [Glue**:** Serverless ETL, Data Catalog.](AWS%20Services%20Structure/Glue%20Serverless%20ETL,%20Data%20Catalog%2024750618cbb880588644ea84aff3e0ac.md)
+            [Glue**:** Serverless ETL, Data Catalog.](Glue%20-%20Serverless%20ETL,%20Data%20Catalog.md)
             
             [**Athena: Serverless SQL on S3 files.**](Athena%20Serverless%20SQL%20on%20S3%20files.md)
             
             - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
         - Streaming Analytics (Real-Time):
             
-            [**Kinesis Data Streams**: Real-time ingestion, requires shard management ("The Pipe").](AWS%20Services%20Structure/Kinesis%20Data%20Streams%20Real-time%20ingestion,%20requires%2023150618cbb880988df6df4f290ff205.md)
+            [**Kinesis Data Streams**: Real-time ingestion, requires shard management ("The Pipe").](Kinesis%20Data%20Streams%20-%20Real-time%20ingestion,%20requires%20shard%20management%20(The%20Pipe).md)
             
-            [**Kinesis Data Firehose**: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").](AWS%20Services%20Structure/Kinesis%20Data%20Firehose%20Near%20real-time%20delivery%20to%20S%2024b50618cbb8809c8db4ee3d5f43c124.md)
+            [**Kinesis Data Firehose**: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").](Kinesis%20Data%20Firehose%20-%20Near%20real-time%20delivery%20to%20S3%20Redshift,%20zero%20admin,%20supports%20Lambda%20transformation%20(The%20Delivery%20Truck).md)
             
-            [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](AWS%20Services%20Structure/Kinesis%20Data%20Analytics%20SQL%20Flink%20analysis%20inside%20t%202eb50618cbb880828482d35ebc22c4fd.md)
+            [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](Kinesis%20Data%20Analytics%20-%20SQL%20Flink%20analysis%20inside%20the%20stream.md)
             
             [The Kinesis Cheat Sheet: Which one to pick?](The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick.md)
             
@@ -229,13 +229,13 @@
             
             - **Global Accelerator:** Static IP, improves performance via AWS backbone (not caching).
             
-            [**Elastic Load Balancing (ELB)**](AWS%20Services%20Structure/Elastic%20Load%20Balancing%20(ELB)%2022f50618cbb88087acece63fad193bbd.md)
+            [**Elastic Load Balancing (ELB)**](Elastic%20Load%20Balancing%20(ELB).md)
             
             - **Load Balancing:** ALB (Layer 7/HTTP), NLB (Layer 4/TCP/UDP), GWLB (Security appliances).
     - **5: Security, Identity & Compliance:**
         - **Identity:**
             
-            [IAM **(Identity and Access Management):** Users, Roles, Policies, MFA.](AWS%20Services%20Structure/IAM%20(Identity%20and%20Access%20Management)%20Users,%20Roles,%2022f50618cbb88089802ecc57ec943a97.md)
+            [IAM **(Identity and Access Management):** Users, Roles, Policies, MFA.](IAM%20(Identity%20and%20Access%20Management)%20-%20Users,%20Roles,%20Policies,%20MFA.md)
             
             [Cognito**:** Identity for Mobile/Web Apps (User Pools = Auth, Identity Pools = AWS Access).](AWS%20Services%20Structure/Cognito%20Identity%20for%20Mobile%20Web%20Apps%20(User%20Pools%20=%2022f50618cbb88012846cf235eceb6b83.md)
             
@@ -259,7 +259,7 @@
             
             [GuardDuty**:** Intelligent threat detection (logs analysis).](AWS%20Services%20Structure/GuardDuty%20Intelligent%20threat%20detection%20(logs%20analy%2022f50618cbb88025a7caf4fc8e17357a.md)
             
-            [**Macie:** PII/Sensitive data discovery in S3.](AWS%20Services%20Structure/Macie%20PII%20Sensitive%20data%20discovery%20in%20S3%2022f50618cbb880c3b114f7bb4bee8a12.md)
+            [**Macie:** PII/Sensitive data discovery in S3.](Macie%20-%20PII%20Sensitive%20data%20discovery%20in%20S3.md)
             
             - **Inspector:** EC2 vulnerability scanning.
             - **AWS Firewall Manager:** Centrally manage WAF/Shield across accounts.
@@ -292,7 +292,7 @@
             
             [DMS **(Database Migration Service):** Move DBs while keeping source live.](AWS%20Services%20Structure/DMS%20(Database%20Migration%20Service)%20Move%20DBs%20while%20ke%2022f50618cbb880ba8820ef2d5682fc5e.md)
             
-            [**MGN (Application Migration Service):** Lift-and-shift servers.](AWS%20Services%20Structure/MGN%20(Application%20Migration%20Service)%20Lift-and-shift%2022f50618cbb880dfade1dd0e63f71fcb.md)
+            [**MGN (Application Migration Service):** Lift-and-shift servers.](MGN%20(Application%20Migration%20Service)%20-%20Lift-and-shift%20servers.md)
             
             - **Schema Conversion Tool (SCT):** Convert Oracle to Aurora.
         - **Transfer:**
@@ -316,7 +316,7 @@
             - **Amazon MQ:** Broker for industry standards (MQTT, AMQP) - "Lift and shift" legacy apps.
         - **Events & Workflow:**
             
-            [EventBridge**:** Serverless Event Bus, Rules, Scheduler.](AWS%20Services%20Structure/EventBridge%20Serverless%20Event%20Bus,%20Rules,%20Scheduler%2022f50618cbb88008981ed3264b8965f6.md)
+            [EventBridge**:** Serverless Event Bus, Rules, Scheduler.](EventBridge%20-%20Serverless%20Event%20Bus,%20Rules,%20Scheduler.md)
             
             [Step Functions**:** Visual workflow orchestration (State Machine).](AWS%20Services%20Structure/Step%20Functions%20Visual%20workflow%20orchestration%20(Stat%2022f50618cbb88018956eebd11475b339.md)
             
