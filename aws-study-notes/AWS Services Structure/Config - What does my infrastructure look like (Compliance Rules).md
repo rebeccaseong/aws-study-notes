@@ -1,5 +1,3 @@
-# Config: "What does my infrastructure look like?" (Compliance/Rules).
-
 - **What is it? (1-Sentence Pitch):** A service that lets you assess, audit, and evaluate the configurations of your AWS resources over time.
 - **Core Use Cases:**
     - Continuously monitoring for compliance with your desired configurations.

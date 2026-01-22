@@ -1,5 +1,3 @@
-# EBS (Elastic Block Store): Persistent, Network-attached (gp3, io2).
-
 - **What is it? (1-Sentence Pitch):** A high-performance, persistent block storage volume (like a "virtual hard drive") for use with a single EC2 instance.
 - **Core Use Cases:** Boot volumes for EC2 instances, storing data for transactional or NoSQL databases running on EC2, throughput-intensive workloads.
 - **Key Features & Concepts:**
@@ -11,5 +9,4 @@
     - **Provisioned IOPS SSD (io2 Block Express/io1):** Highest performance SSD for mission-critical, I/O-intensive workloads like large relational databases (e.g., RDS, Oracle on EC2).
     - **Throughput Optimized HDD (st1):** Low-cost HDD designed for frequently accessed, throughput-intensive workloads like big data and data warehousing.
     - **Cold HDD (sc1):** Lowest cost HDD for less frequently accessed workloads.
-
-[Availability Zone and Region](Availability%20Zone%20and%20Region.md)
+- [Availability Zone and Region](aws-study-notes/AWS%20Services%20Structure/EBS%20(Elastic%20Block%20Store)%20Persistent,%20Network-atta/Availability%20Zone%20and%20Region.md)

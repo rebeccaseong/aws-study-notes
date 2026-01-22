@@ -1,5 +1,3 @@
-# Aurora: Cloud-native, high performance, Serverless v2, Global Database.
-
 - **What is it? (1-Sentence Pitch):** Amazon Aurora is a cloud-native relational database, fully compatible with MySQL and PostgreSQL, that delivers the performance and availability of high-end commercial databases at a fraction of the cost.
 - **The Core Architecture**
     - Unlike traditional monolithic databases, Aurora **decouples compute from storage**. This is the key to its performance and resilience.

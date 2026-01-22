@@ -1,5 +1,3 @@
-# CloudWatch: Metrics, Alarms, Logs (Performance).
-
 - **What is it? (1-Sentence Pitch):** The central monitoring and observability service for AWS resources and the applications you run on AWS.
 - **Key Features & Concepts:**
     - **Metrics:** The core of CloudWatch. A time-ordered set of data points (e.g., EC2 CPU Utilization, Lambda Invocations).

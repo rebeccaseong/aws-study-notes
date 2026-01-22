@@ -1,4 +1,2 @@
-# CodeCommit: Git repo.
-
 - **What is it? (1-Sentence Pitch):** A secure, highly scalable, managed source control service that hosts private Git repositories.
 - **Use Case / Distinction:** AWS's version of GitHub or GitLab for storing your application code.

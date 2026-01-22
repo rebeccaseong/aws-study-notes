@@ -1,5 +1,3 @@
-# DynamoDB: Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.
-
 - **What is it? (1-Sentence Pitch):** A fully managed, serverless, key-value and document NoSQL database designed for single-digit millisecond performance at any scale.
 - **Core Use Cases:** Web and mobile apps, gaming leaderboards, IoT applications, and any application needing extremely low latency and massive scalability.??
 - **Key Features & Concepts:**

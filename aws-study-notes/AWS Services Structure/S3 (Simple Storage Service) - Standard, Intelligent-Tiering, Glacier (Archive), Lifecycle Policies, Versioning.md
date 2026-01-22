@@ -66,4 +66,4 @@
         - **Use Case:** Automatically create an image thumbnail (using Lambda) every time a new image is uploaded to S3.
     - **Static Website Hosting:** S3 can be configured to host a static website (HTML, CSS, JS). For a production website, you would put **Amazon CloudFront** in front of the S3 bucket to provide a custom domain (via HTTPS), caching, and lower latency.
 
-[S3 Transfer Acceleration (S3TA)](S3%20(Simple%20Storage%20Service)%20Standard,%20Intelligent-/S3%20Transfer%20Acceleration%20(S3TA)%2023050618cbb88024a6b9ee23d434eba8.md)
+[S3 Transfer Acceleration (S3TA)](S3%20Transfer%20Acceleration%20(S3TA).md)

@@ -1,5 +1,3 @@
-# DMS (Database Migration Service): Move DBs while keeping source live.
-
 - **What is it? (1-Sentence Pitch):** A service to help you migrate databases to or within AWS easily and securely with minimal downtime.
 - **Core Use Cases:**
     - **Homogeneous migrations:** e.g., on-prem Oracle to Oracle on RDS.

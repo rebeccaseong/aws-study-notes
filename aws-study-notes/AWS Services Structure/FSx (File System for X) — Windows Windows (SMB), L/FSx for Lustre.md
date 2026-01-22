@@ -1,5 +1,3 @@
-# FSx for Lustre
-
 - A high-performance file system optimized for speed. **Use for** High-Performance Computing (HPC), machine learning, and media processing workflows that require massive throughput and low latency.
 - **FSx for Lustre** is a parallel file system. It spreads a single file system across many different high-speed servers. When a cluster of computers needs to access data, each computer can talk to a different server simultaneously, all reading and writing from what appears to be a single, shared drive.
 - high-performance

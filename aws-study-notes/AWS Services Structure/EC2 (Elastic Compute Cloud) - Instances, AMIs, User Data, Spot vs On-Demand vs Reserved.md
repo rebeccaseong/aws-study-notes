@@ -1,5 +1,3 @@
-# EC2 (Elastic Compute Cloud): Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.
-
 - **What is it? (1-Sentence Pitch):**EC2 provides secure, resizable **virtual servers** (called instances) in the cloud, allowing you to scale your computing capacity up or down to meet changing demands with minimal friction.
 - **Core EC2 Components (The Building Blocks)**
     - **Amazon Machine Image (AMI):** The software template used to create an instance. It includes the Operating System (e.g., Linux, Windows), any pre-installed software, and configurations. You can use AWS-provided AMIs, community AMIs, or create your own custom AMIs.

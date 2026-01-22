@@ -1,5 +1,3 @@
-# CloudFormation: Infrastructure as Code (JSON/YAML).
-
 - **What is it? (1-Sentence Pitch):** An Infrastructure as Code (IaC) service that lets you model and provision your entire AWS infrastructure in a simple text file (YAML or JSON).
 - **Core Use Cases:**
     - Creating a reproducible and automated way to deploy your environments (dev, test, prod).

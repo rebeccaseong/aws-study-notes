@@ -1,5 +1,3 @@
-# CloudFront: CDN (Content Delivery Network), caching at Edge.
-
 - **What is it? (1-Sentence Pitch):** A fast Content Delivery Network (CDN) that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds by caching content in worldwide edge locations.
 - **How CloudFront Works: The Global Network:** CloudFront's performance comes from its three-tiered global network
     1. **Edge Locations (Points of Presence - PoPs):** These are thousands of data centers globally. When a user requests your content, they are routed to the nearest Edge Location, which dramatically reduces latency.

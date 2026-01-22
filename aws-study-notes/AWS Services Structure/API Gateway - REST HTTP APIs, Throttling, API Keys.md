@@ -1,5 +1,3 @@
-# API Gateway: REST/HTTP APIs, Throttling, API Keys.
-
 - **What is it? (1-Sentence Pitch):** A fully managed service that acts as a "front door" for applications to access data, business logic, or functionality from your backend services (like Lambda or EC2).
 - **The Three Types of APIs**
     

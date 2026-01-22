@@ -1,5 +1,3 @@
-# S3 Transfer Acceleration (S3TA)
-
 - Both CloudFront and S3TA use the **AWS Global Edge Network** to improve performance for users who are geographically far from your resources.
     - **CloudFront:** Primarily for speeding up **reading/downloading** content (GET, HEAD requests).
     - **S3 Transfer Acceleration:** For speeding up **writing/uploading** and **downloading** content (PUT, POST, GET requests).

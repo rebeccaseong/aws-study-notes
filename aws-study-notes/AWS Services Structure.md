@@ -122,39 +122,39 @@
     
 - AWS Service Outline Detailed
     - 0: Concepts:        
-        - [Availability Zone and Region](AWS%20Services%20Structure/Availability%20Zone%20and%20Region%2024b50618cbb880c4b68df386643c872d.md)
+        - [Availability Zone and Region](aws-study-notes/AWS%20Services%20Structure/Availability%20Zone%20and%20Region.md)
     - **1: Compute:**
-        - [ **EC2 (Elastic Compute Cloud):** Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.  ](AWS%20Services%20Structure/EC2%20(Elastic%20Compute%20Cloud)%20Instances,%20AMIs,%20User%20%2022f50618cbb88044b80fec4b587a9322.md)
+        - [ **EC2 (Elastic Compute Cloud):** Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.  ](EC2%20(Elastic%20Compute%20Cloud)%20-%20Instances,%20AMIs,%20User%20Data,%20Spot%20vs%20On-Demand%20vs%20Reserved.md)
         - **Auto Scaling Groups (ASG):** Scaling policies (Target Tracking), Launch Templates.
         - **Containers:**
-            - [ECS **(Elastic Container Service):** Docker management.](AWS%20Services%20Structure/ECS%20(Elastic%20Container%20Service)%20Docker%20management%2022f50618cbb880448cfacce65da81644.md)
-            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](EKS%20(Elastic%20Kubernetes%20Service)%20-%20Kubernetes%20management%2022f50618cbb880958ca5d185bf5db690.md)
+            - [ECS **(Elastic Container Service):** Docker management.](ECS%20(Elastic%20Container%20Service)%20-%20Docker%20management.md)
+            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](EKS%20(Elastic%20Kubernetes%20Service)%20-%20Kubernetes%20management.md)
             - **Fargate:** Serverless compute for containers (Exam favorite).
         - **Serverless:**
-            [Lambda**:** Event-driven code, limits (15 min), Cold starts.](Lambda%20-%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20starts.md)
+            - [Lambda**:** Event-driven code, limits (15 min), Cold starts.](Lambda%20-%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20starts.md)
             - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
         - **Other:**
-            [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20,%20easy%20deployment.md)
+            - [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20,%20easy%20deployment.md)
             - **AWS Batch:** Batch computing (HPC) using Spot instances.
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
             - **Wavelength:** Ultra-low latency for 5G devices.
     - **2: Storage & File Systems:**
         - Object Storage:
-            [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](S3%20(Simple%20Storage%20Service)%20-%20Standard,%20Intelligent-Tiering,%20Glacier%20(Archive),%20Lifecycle%20Policies,%20Versioning.md)
+            - [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](S3%20(Simple%20Storage%20Service)%20-%20Standard,%20Intelligent-Tiering,%20Glacier%20(Archive),%20Lifecycle%20Policies,%20Versioning.md)
         - Block Storage:
-            [**EBS (Elastic Block Store)**: Persistent, Network-attached (gp3, io2).](AWS%20Services%20Structure/EBS%20(Elastic%20Block%20Store)%20Persistent,%20Network-atta%2022f50618cbb88094b407c36ca4528f28.md)
+            - [**EBS (Elastic Block Store)**: Persistent, Network-attached (gp3, io2).](EBS%20(Elastic%20Block%20Store)%20-%20Persistent,%20Network-attached%20(gp3,%20io2).md)
             
             - Instance Store: Ephemeral, High Random I/O, locally attached.
         - File Storage:
             
-            [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)%20%E2%80%94%20Linux%20Shared%20Linux%20(NF%2022f50618cbb88007ac88f387571fdeb3.md)
+            - [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)
             
-            [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
+            - [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
             
         - Hybrid Storage:
             
-            [**Storage Gateway**: File (S3), Volume (iSCSI), Tape (VTL).](AWS%20Services%20Structure/Storage%20Gateway%20File%20(S3),%20Volume%20(iSCSI),%20Tape%20(V%202eb50618cbb880e8acc0ea341241026b.md)
+             [**Storage Gateway**: File (S3), Volume (iSCSI), Tape (VTL).](AWS%20Services%20Structure/Storage%20Gateway%20File%20(S3),%20Volume%20(iSCSI),%20Tape%20(V%202eb50618cbb880e8acc0ea341241026b.md)
             
         - **Storage Cheat Sheet for SAA Exam**
             
@@ -172,18 +172,14 @@
             | Replacing physical tape backups | Storage Gateway (Tape) |
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
-            
-            [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%20MySQL%20etc.,%20Multi-AZ%20(Disaster%20Recovery)%20vs%20Read%20Replicas%20(Performance).md)
-            
-            [**Aurora:** Cloud-native, high performance, Serverless v2, Global Database.](AWS%20Services%20Structure/Aurora%20Cloud-native,%20high%20performance,%20Serverless%20%2022f50618cbb8802ba6c3e1b40d5935fe.md)
-            
+	        - [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%20MySQL%20etc.,%20Multi-AZ%20(Disaster%20Recovery)%20vs%20Read%20Replicas%20(Performance).md)
+	        -  [**Aurora:** Cloud-native, high performance, Serverless v2, Global Database.](Aurora%20-%20Cloud%20native,%20high%20performance,%20Serverless%20v2,%20Global%20Database.md)
         - **NoSQL Databases:**
             
-            [**DynamoDB:** Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.](AWS%20Services%20Structure/DynamoDB%20Key-value,%20single-digit%20millisecond%20laten%2022f50618cbb880d286e8df4df3fbe8e6.md)
+           -  [**DynamoDB:** Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.](DynamoDB%20Key-value,%20single-digit%20millisecond%20latency,%20DAX,%20Streams,%20Global%20Tables.md)
             
         - **Caching:**
-            
-            [**ElastiCache:** Redis (complex data structures) vs. Memcached (simple).](ElastiCache%20Redis%20(complex%20data%20structures)%20vs%20Memcached%20(simple).md)
+            - [**ElastiCache:** Redis (complex data structures) vs. Memcached (simple).](ElastiCache%20Redis%20(complex%20data%20structures)%20vs%20Memcached%20(simple).md)
             
             - **DAX:** Caching specifically for DynamoDB.
         - Batch Analytics (Big Data):
@@ -194,7 +190,7 @@
             
             [Glue**:** Serverless ETL, Data Catalog.](Glue%20-%20Serverless%20ETL,%20Data%20Catalog.md)
             
-            [**Athena: Serverless SQL on S3 files.**](Athena%20Serverless%20SQL%20on%20S3%20files.md)
+            [**Athena: Serverless SQL on S3 files.**](Athena%20-%20Serverless%20SQL%20on%20S3%20files.md)
             
             - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
         - Streaming Analytics (Real-Time):
@@ -225,7 +221,7 @@
             
             [Route 53**:** DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).](Route%2053%20DNS%20records%20(A,%20CNAME,%20Alias),%20Routing%20Policies%20(Failover,%20Latency,%20Geolocation).md)
             
-            [CloudFront**:** CDN (Content Delivery Network), caching at Edge.](AWS%20Services%20Structure/CloudFront%20CDN%20(Content%20Delivery%20Network),%20caching%2022f50618cbb8803d9686e8929d9aeda0.md)
+            [CloudFront**:** CDN (Content Delivery Network), caching at Edge.](CloudFront%20CDN%20(Content%20Delivery%20Network),%20caching%20at%20Edge.md)
             
             - **Global Accelerator:** Static IP, improves performance via AWS backbone (not caching).
             
@@ -245,7 +241,7 @@
             
             [KMS **(Key Management Service): Encryption keys (managed).**](AWS%20Services%20Structure/KMS%20(Key%20Management%20Service)%20Encryption%20keys%20(mana%2022f50618cbb8801a9257f2ef51b8b865.md)
             
-            [CloudHSM **(Hardware Security Module):** Dedicated hardware (compliance).](AWS%20Services%20Structure/CloudHSM%20(Hardware%20Security%20Module)%20Dedicated%20hard%2022f50618cbb8809bac07e5ca4a97de64.md)
+            [CloudHSM **(Hardware Security Module):** Dedicated hardware (compliance).](CloudHSM%20(Hardware%20Security%20Module)%20-%20Dedicated%20hardware%20(compliance).md)
             
             [**Secrets Manager:** Rotate DB credentials automatically.](Secrets%20Manager%20-%20Rotate%20DB%20credentials%20automatically.md)
             
@@ -266,12 +262,12 @@
     - **6: Monitoring, Management & Governance:**
         - **Monitoring:**
             
-            [CloudWatch**:** Metrics, Alarms, Logs (Performance).](AWS%20Services%20Structure/CloudWatch%20Metrics,%20Alarms,%20Logs%20(Performance)%2022f50618cbb8804e8580c166bc78d7e9.md)
+            [CloudWatch**:** Metrics, Alarms, Logs (Performance).](CloudWatch%20-%20Metrics,%20Alarms,%20Logs%20(Performance).md)
             
             - **X-Ray:** Tracing and debugging distributed apps/Lambda.
         - **Audit & Governance:**
             
-            [CloudTrail**:** "Who did what?" (API Auditing).](AWS%20Services%20Structure/CloudTrail%20Who%20did%20what%20(API%20Auditing)%2022f50618cbb8808ebf65eb32b3da1f7c.md)
+            [CloudTrail**:** "Who did what?" (API Auditing).](CloudTrail%20-%20Who%20did%20what%20(API%20Auditing).md)
             
             [Config**:** "What does my infrastructure look like?" (Compliance/Rules).](AWS%20Services%20Structure/Config%20What%20does%20my%20infrastructure%20look%20like%20(Comp%2022f50618cbb880c8b456d34fc04e0b71.md)
             
@@ -279,7 +275,7 @@
             
         - **Management:**
             
-            [**CloudFormation:** Infrastructure as Code (JSON/YAML).](AWS%20Services%20Structure/CloudFormation%20Infrastructure%20as%20Code%20(JSON%20YAML)%2022f50618cbb880eeba29fb3cbc7d5076.md)
+            [**CloudFormation:** Infrastructure as Code (JSON/YAML).](CloudFormation%20-%20Infrastructure%20as%20Code%20(JSON%20YAML).md)
             
             [**Systems Manager (SSM):** Patch Manager, Session Manager (No SSH needed).](Systems%20Manager%20(SSM)%20Patch%20Manager,%20Session%20Manager,%20Session%20Manager%20(No%20SSH%20needed)..md)
             
@@ -290,7 +286,7 @@
     - **7: Migration & Transfer:**
         - **Migration:**
             
-            [DMS **(Database Migration Service):** Move DBs while keeping source live.](AWS%20Services%20Structure/DMS%20(Database%20Migration%20Service)%20Move%20DBs%20while%20ke%2022f50618cbb880ba8820ef2d5682fc5e.md)
+            [DMS **(Database Migration Service):** Move DBs while keeping source live.](DMS%20(Database%20Migration%20Service)%20-%20Move%20DBs%20while%20keeping%20source%20live.md)
             
             [**MGN (Application Migration Service):** Lift-and-shift servers.](MGN%20(Application%20Migration%20Service)%20-%20Lift-and-shift%20servers.md)
             
@@ -298,7 +294,7 @@
         - **Transfer:**
             - **Snow Family:** Physical devices (Snowcone, Snowball Edge, Snowmobile) for massive data.
             
-            [DataSync**:** Automated data transfer (NAS to S3).](AWS%20Services%20Structure/DataSync%20Automated%20data%20transfer%20(NAS%20to%20S3)%2022f50618cbb880279c65e826f4bf6659.md)
+            [DataSync**:** Automated data transfer (NAS to S3).](DataSync%20-%20Automated%20data%20transfer%20(NAS%20to%20S3).md)
             
             [Transfer Family**:** FTP/SFTP to S3.](Transfer%20Family%20-%20FTP%20SFTP%20to%20S3.md)
             
@@ -322,17 +318,17 @@
             
             [SWF **(Simple Workflow Service)**](SWF%20(Simple%20Workflow%20Service).md)
             
-            [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](API%20Gateway%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys.md)
+            [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](API%20Gateway%20-%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys.md)
             
     - **9: Developer Tools:**
         - **CI/CD Pipeline:**
             
-            [CodeCommit**:** Git repo.](AWS%20Services%20Structure/CodeCommit%20Git%20repo%2022f50618cbb8802a9133e4ee01129f87.md)
+            [CodeCommit**:** Git repo.](CodeCommit%20-%20Git%20repo.md)
             
-            [CodeBuild**:** Build and test.](AWS%20Services%20Structure/CodeBuild%20Build%20and%20test%2022f50618cbb880c19318c31d7c486823.md)
+            [CodeBuild**:** Build and test.](CodeBuild%20Build%20and%20test.md)
             
-            [CodeDeploy**:** Deploy to EC2/Lambda.](AWS%20Services%20Structure/CodeDeploy%20Deploy%20to%20EC2%20Lambda%2022f50618cbb880109ceaf756b0664a9f.md)
+            [CodeDeploy**:** Deploy to EC2/Lambda.](CodeDeploy%20-%20Deploy%20to%20EC2,%20Lambda.md)
             
-            [CodePipeline**:** Orchestrate the flow.](AWS%20Services%20Structure/CodePipeline%20Orchestrate%20the%20flow%2022f50618cbb8802ba737ed2ceb9bcf6e.md)
+            [CodePipeline**:** Orchestrate the flow.](CodePipeline%20-%20Orchestrate%20the%20flow.md)
             
     

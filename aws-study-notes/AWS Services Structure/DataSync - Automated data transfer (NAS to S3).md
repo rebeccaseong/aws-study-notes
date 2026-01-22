@@ -1,5 +1,3 @@
-# DataSync: Automated data transfer (NAS to S3).
-
 - **What is it? (1-Sentence Pitch):** An online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage (like NFS/SMB) and AWS storage services (like S3/EFS/FSx).
 - **Core Use Cases:** For ongoing, scheduled, or automated data transfers over the network.
 - **Key Distinction:** Use **DataSync** for online/ongoing transfers. Use **Snowball** for offline/bulk transfers where network is a blocker.

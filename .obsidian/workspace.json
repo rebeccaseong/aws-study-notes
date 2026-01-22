@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws-study-notes/AWS Services Structure/EFS (Elastic File System) — Linux Shared Linux (NF 22f50618cbb88007ac88f387571fdeb3.md",
+                "file": "aws-study-notes/AWS Services Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EFS (Elastic File System) — Linux Shared Linux (NF 22f50618cbb88007ac88f387571fdeb3"
+              "title": "AWS Services Structure"
             }
           }
         ]
@@ -197,32 +197,33 @@
   },
   "active": "f4c29cc149a92c5b",
   "lastOpenFiles": [
-    "aws-study-notes/AWS Services Structure/EKS (Elastic Kubernetes Service) - Kubernetes management 22f50618cbb880958ca5d185bf5db690.md",
-    "aws-study-notes/AWS Services Structure/Elastic Beanstalk PaaS (Platform as a Service), , easy deployment.md",
-    "aws-study-notes/AWS Services Structure/Elastic Load Balancing (ELB).md",
-    "aws-study-notes/AWS Services Structure/ElastiCache Redis (complex data structures) vs Memcached (simple).md",
-    "aws-study-notes/AWS Services Structure/EMR (Elastic MapReduce) - Hadoop Spark clusters, high maintenance.md",
-    "aws-study-notes/AWS Services Structure/EventBridge - Serverless Event Bus, Rules, Scheduler.md",
-    "aws-study-notes/AWS Services Structure/FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP.md",
+    "aws-study-notes/AWS Services Structure/EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ.md",
+    "aws-study-notes/AWS Services Structure/EKS (Elastic Kubernetes Service) - Kubernetes management.md",
+    "aws-study-notes/AWS Services Structure.md",
+    "aws-study-notes/AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
+    "aws-study-notes/AWS Services Structure/EBS (Elastic Block Store) Persistent, Network-atta/Availability Zone and Region.md",
+    "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Lustre.md",
     "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Windows File Server.md",
-    "aws-study-notes/AWS Services Structure/Glue - Serverless ETL, Data Catalog.md",
-    "aws-study-notes/AWS Services Structure/Config What does my infrastructure look like (Comp 22f50618cbb880c8b456d34fc04e0b71.md",
-    "aws-study-notes/AWS Services Structure/GuardDuty - Intelligent threat detection (logs analysis).md",
-    "aws-study-notes/AWS Services Structure/IAM (Identity and Access Management) - Users, Roles, Policies, MFA.md",
-    "aws-study-notes/AWS Services Structure/Kinesis Data Analytics - SQL Flink analysis inside the stream.md",
-    "aws-study-notes/AWS Services Structure/Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck).md",
-    "aws-study-notes/AWS Services Structure/Kinesis Data Streams - Real-time ingestion, requires shard management (The Pipe).md",
-    "aws-study-notes/AWS Services Structure/KMS (Key Management Service) - Encryption keys (managed).md",
-    "aws-study-notes/AWS Services Structure/Lambda - Event-driven code, limits (15 min), Cold starts.md",
-    "aws-study-notes/AWS Services Structure/Macie - PII Sensitive data discovery in S3.md",
-    "aws-study-notes/AWS Services Structure/MGN (Application Migration Service) - Lift-and-shift servers.md",
-    "aws-study-notes/AWS Services Structure/Organizations & Control Tower - SCPs (Service Control Policies), Consolidated Billing.md",
-    "aws-study-notes/AWS Services Structure/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
-    "aws-study-notes/AWS Services Structure/Redshift Data Warehouse, Columnar storage (OLAP).md",
-    "aws-study-notes/AWS Services Structure/Route 53 DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).md",
-    "aws-study-notes/AWS Services Structure/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md",
-    "aws-study-notes/AWS Services Structure/Secrets Manager - Rotate DB credentials automatically.md",
-    "aws-study-notes/AWS Services Structure/Shield - DDoS protection (Standard vs Advanced).md",
+    "aws-study-notes/AWS Services Structure/S3 (Simple Storage Service) Standard, Intelligent-/S3 Transfer Acceleration (S3TA).md",
+    "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
+    "aws-study-notes/AWS Services Structure/API Gateway - REST HTTP APIs, Throttling, API Keys.md",
+    "aws-study-notes/AWS Services Structure/Athena - Serverless SQL on S3 files.md",
+    "aws-study-notes/AWS Services Structure/Aurora - Cloud native, high performance, Serverless v2, Global Database.md",
+    "aws-study-notes/AWS Services Structure/Availability Zone and Region.md",
+    "aws-study-notes/AWS Services Structure/CloudFormation - Infrastructure as Code (JSON YAML).md",
+    "aws-study-notes/AWS Services Structure/CloudFront CDN (Content Delivery Network), caching at Edge.md",
+    "aws-study-notes/AWS Services Structure/CloudHSM (Hardware Security Module) - Dedicated hardware (compliance).md",
+    "aws-study-notes/AWS Services Structure/CloudTrail - Who did what (API Auditing).md",
+    "aws-study-notes/AWS Services Structure/CloudWatch - Metrics, Alarms, Logs (Performance).md",
+    "aws-study-notes/AWS Services Structure/CodeBuild Build and test.md",
+    "aws-study-notes/AWS Services Structure/CodeCommit - Git repo.md",
+    "aws-study-notes/AWS Services Structure/CodeDeploy - Deploy to EC2, Lambda.md",
+    "aws-study-notes/AWS Services Structure/CodePipeline - Orchestrate the flow.md",
+    "aws-study-notes/AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
+    "aws-study-notes/AWS Services Structure/Config - What does my infrastructure look like (Compliance Rules).md",
+    "aws-study-notes/AWS Services Structure/DataSync - Automated data transfer (NAS to S3).md",
+    "aws-study-notes/AWS Services Structure/DMS (Database Migration Service) - Move DBs while keeping source live.md",
+    "aws-study-notes/AWS Services Structure/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
 }

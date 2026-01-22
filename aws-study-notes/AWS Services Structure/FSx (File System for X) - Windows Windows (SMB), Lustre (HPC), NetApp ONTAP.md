@@ -1,5 +1,5 @@
 - **What is it? (1-Sentence Pitch):** A service that provides fully managed, high-performance third-party file systems for specific commercial and open-source needs.
 - **FSx Types:**
     - [**FSx for Windows File Server**](FSx%20for%20Windows%20File%20Server.md)
-    - [**FSx for Lustre**](FSx%20(File%20System%20for%20X)%20%E2%80%94%20Windows%20Windows%20(SMB),%20L/FSx%20for%20Lustre%2022f50618cbb8801c9dcafb3382ad1591.md)
+    - [**FSx for Lustre**](FSx%20for%20Lustre.md)
     - **FSx for NetApp ONTAP:** Provides the popular features and performance of an ONTAP file system in the cloud. **Use when** migrating enterprise applications that rely on ONTAP-specific features.

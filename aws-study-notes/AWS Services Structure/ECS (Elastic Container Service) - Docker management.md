@@ -1,5 +1,3 @@
-# ECS (Elastic Container Service): Docker management.
-
 - **What is it? (1-Sentence Pitch):** A highly scalable, high-performance container orchestration service that supports Docker containers.
 - **Core Use Cases:**
     - Running and scaling microservices architectures.
