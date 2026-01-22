@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "AWS Services Structure.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,7 +198,9 @@
   },
   "active": "95056709ce1dccda",
   "lastOpenFiles": [
+    "AWS Services Structure/Config What does my infrastructure look like (Comp 22f50618cbb880c8b456d34fc04e0b71.md",
     "AWS Services Structure.md",
+    "AWS Services Structure/KMS (Key Management Service.md",
     "New Text Document.txt",
     "Untitled.md",
     "aws-study-notes/AWS Services Structure.md",
@@ -224,8 +226,6 @@
     "aws-study-notes/AWS Services Structure/CodeBuild Build and test.md",
     "aws-study-notes/AWS Services Structure/CodeCommit - Git repo.md",
     "aws-study-notes/AWS Services Structure/CodeDeploy - Deploy to EC2, Lambda.md",
-    "aws-study-notes/AWS Services Structure/CodePipeline - Orchestrate the flow.md",
-    "aws-study-notes/AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
 }
