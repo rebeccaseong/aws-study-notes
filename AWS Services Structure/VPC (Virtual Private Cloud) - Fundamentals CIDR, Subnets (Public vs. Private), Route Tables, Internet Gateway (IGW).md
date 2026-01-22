@@ -36,7 +36,7 @@
         - **Web Server Security Group:** Allows Port 80/443 **only from the ALB's Security Group**.
         - **Database Security Group:** Allows Port 3306 (MySQL) **only from the Web Server's Security Group**.
         
-        ![image.png](Availability%20Zone%20and%20Region/image.png)
+        ![image.png](AWS%20Services%20Structure/0%20Concept/Availability%20Zone%20and%20Region/image.png)
         
 - **Design & Best Practices**
     1. **CIDR Planning is EVERYTHING:**

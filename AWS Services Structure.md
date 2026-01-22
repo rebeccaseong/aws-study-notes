@@ -52,7 +52,7 @@
 			- Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
         -  [[VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)]]
-        - Security Groups vs NACLs (Critical Comparison)
+        - [[Comparison - Security Groups vs NACLs]]
         - **Connectivity:**
             - **NAT Gateway:** Allows private subnets to talk to the internet.
             - **VPC Endpoints:** PrivateLink (Interface) vs. Gateway (S3/DynamoDB).
@@ -62,7 +62,8 @@
         - **Delivery & Traffic:**
             - [[Route 53 DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation)]]
             - [[CloudFront CDN (Content Delivery Network), caching at Edge]]
-            - **Global Accelerator:** Static IP, improves performance via AWS backbone (not caching)
+            - [[Global Accelerator - Static IP, improves performance via AWS backbone (not caching)]]
+            - [[Comparation - Global Accelerator vs CloudFront]]
         - [[Elastic Load Balancing (ELB)]]
             - **Load Balancing:** ALB (Layer 7/HTTP), NLB (Layer 4/TCP/UDP), GWLB (Security appliances).
     - **5: Security, Identity & Compliance:**

@@ -1,1 +1,1 @@
-![image.png](Availability%20Zone%20and%20Region/image.png)
+![image.png](AWS%20Services%20Structure/0%20Concept/Availability%20Zone%20and%20Region/image.png)
