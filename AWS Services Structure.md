@@ -27,7 +27,7 @@
             - [[EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ]]
             - [[FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP]]
         - Hybrid Storage:
-	        - [[Storage Gateway - File (S3), Volume (iSCSI), Tape (VTL)]]]
+	        - [[Storage Gateway - File (S3), Volume (iSCSI), Tape (VTL)]]
         - [[Storage Cheat Sheet for SAA Exam]]
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
@@ -78,7 +78,7 @@
             - **AWS Certificate Manager (ACM):** Free SSL/TLS certs for ALB, CloudFront, API Gateway.
         - **Protection Services:**
 	        - [[Shield - DDoS protection (Standard vs Advanced)]]
-	        - [WAF **(Web Application Firewall)**(Block SQL injection/XSS)](AWS%20Services%20Structure/WAF%20(Web%20Application%20Firewall)
+	        - [[WAF (Web Application Firewall) - Block SQL injection XSS]]
 	        - [[GuardDuty - Intelligent threat detection (logs analysis)]]
 	        - [[Macie - PII Sensitive data discovery in S3]]
             - **Inspector:** EC2 vulnerability scanning.

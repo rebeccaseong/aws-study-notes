@@ -1,9 +1,6 @@
 - **What is it? (1-Sentence Pitch):** A web application firewall that helps protect your web applications from common web exploits like SQL injection and cross-site scripting.
-    
 - **Core Use Cases:** Filtering malicious web traffic before it reaches your application.
-    
 - **Key Features & Concepts:**
-    
     - Operates at Layer 7 (the application layer), meaning it understands and inspects the actual HTTP requests.
     - You define rules to allow or block requests based on IP addresses, HTTP headers, or request strings.(The "How")
     - The Threats You're Looking For (The "What")
