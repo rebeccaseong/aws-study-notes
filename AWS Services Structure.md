@@ -24,34 +24,33 @@
             - [[EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2)]]
             - Instance Store: Ephemeral, High Random I/O, locally attached.
         - File Storage:
-            - [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)
-            - [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
+            - [[EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ]]
+            - [[FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP]]
         - Hybrid Storage:
 	        - [[Storage Gateway File (S3), Volume (iSCSI), Tape (VTL)]]]
         - [[Storage Cheat Sheet for SAA Exam]]
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
-	        - [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%20MySQL%20etc.,%20Multi-AZ%20(Disaster%20Recovery)%20vs%20Read%20Replicas%20(Performance).md)
-	        -  [**Aurora:** Cloud-native, high performance, Serverless v2, Global Database.](Aurora%20-%20Cloud%20native,%20high%20performance,%20Serverless%20v2,%20Global%20Database.md)
+	        - [[RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance)]]
+	        - [[Aurora - Cloud native, high performance, Serverless v2, Global Database]]
         - **NoSQL Databases:**
-	        -  [**DynamoDB:** Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.](DynamoDB%20Key-value,%20single-digit%20millisecond%20latency,%20DAX,%20Streams,%20Global%20Tables.md)
+	        - [[DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables]]
         - **Caching:**
-            - [**ElastiCache:** Redis (complex data structures) vs. Memcached (simple).](ElastiCache%20Redis%20(complex%20data%20structures)%20vs%20Memcached%20(simple).md)
+            - [[ElastiCache Redis (complex data structures) vs Memcached (simple)]]
             - **DAX:** Caching specifically for DynamoDB.
         - Batch Analytics (Big Data):
-	        - [**Redshift:** Data Warehouse, Columnar storage (OLAP).](Redshift%20Data%20Warehouse,%20Columnar%20storage%20(OLAP).md)
-	        - [EMR (Elastic MapReduce)**:** Hadoop/Spark clusters, high maintenance.](EMR%20(Elastic%20MapReduce)%20-%20Hadoop%20Spark%20clusters,%20high%20maintenance.md)
-	        - [Glue**:** Serverless ETL, Data Catalog.](Glue%20-%20Serverless%20ETL,%20Data%20Catalog.md)
-	        - [**Athena: Serverless SQL on S3 files.**](Athena%20-%20Serverless%20SQL%20on%20S3%20files.md)
+	        - [[Redshift Data Warehouse, Columnar storage (OLAP)]]
+	        - [[EMR (Elastic MapReduce) - Hadoop Spark clusters, high maintenance]]
+	        - [[Glue - Serverless ETL, Data Catalog]]
+	        - [[Athena - Serverless SQL on S3 files]]
 	        - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
         - Streaming Analytics (Real-Time): 
-	        - [**Kinesis Data Streams**: Real-time ingestion, requires shard management ("The Pipe").](Kinesis%20Data%20Streams%20-%20Real-time%20ingestion,%20requires%20shard%20management%20(The%20Pipe).md)
-			- [**Kinesis Data Firehose**: Near real-time delivery to S3/Redshift, zero admin, supports Lambda transformation ("The Delivery Truck").](Kinesis%20Data%20Firehose%20-%20Near%20real-time%20delivery%20to%20S3%20Redshift,%20zero%20admin,%20supports%20Lambda%20transformation%20(The%20Delivery%20Truck).md)
-			- [**Kinesis Data Analytics**: SQL/Flink analysis *inside* the stream.](Kinesis%20Data%20Analytics%20-%20SQL%20Flink%20analysis%20inside%20the%20stream.md)
-			- [The Kinesis Cheat Sheet: Which one to pick?](The%20Kinesis%20Cheat%20Sheet%20Which%20one%20to%20pick.md)
+	        - [[Kinesis Data Streams - Real-time ingestion, requires shard management (The Pipe)]]
+			- [[Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck)]]
+			- [[Kinesis Data Analytics - SQL Flink analysis inside the stream]]
 			- Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
-        -  [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20-%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
+        -  [[VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)]]
         - Security Groups vs NACLs (Critical Comparison)
         - **Connectivity:**
             - **NAT Gateway:** Allows private subnets to talk to the internet.

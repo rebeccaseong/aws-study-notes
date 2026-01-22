@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "AWS Services Structure"
             }
-          },
-          {
-            "id": "371a7ef29968e426",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS Services Structure/EFS (Elastic File System.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EFS (Elastic File System"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,11 +196,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "371a7ef29968e426",
+  "active": "d5576deb3c1400ef",
   "lastOpenFiles": [
-    "AWS Services Structure/EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2).md",
-    "AWS Services Structure/EFS (Elastic File System.md",
+    "AWS Services Structure/VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).md",
     "AWS Services Structure.md",
+    "AWS Services Structure/Kinesis Data Analytics - SQL Flink analysis inside the stream.md",
+    "AWS Services Structure/Kinesis Data Streams - Real-time ingestion, requires shard management (The Pipe).md",
+    "AWS Services Structure/Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck).md",
+    "AWS Services Structure/The Kinesis Cheat Sheet Which one to pick.md",
+    "AWS Services Structure/Athena - Serverless SQL on S3 files.md",
+    "AWS Services Structure/Glue - Serverless ETL, Data Catalog.md",
+    "AWS Services Structure/EMR (Elastic MapReduce) - Hadoop Spark clusters, high maintenance.md",
+    "AWS Services Structure/Redshift Data Warehouse, Columnar storage (OLAP).md",
+    "AWS Services Structure/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md",
+    "AWS Services Structure/ElastiCache Redis (complex data structures) vs Memcached (simple).md",
+    "AWS Services Structure/Aurora - Cloud native, high performance, Serverless v2, Global Database.md",
+    "AWS Services Structure/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
+    "AWS Services Structure/FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP.md",
+    "AWS Services Structure/EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ.md",
+    "AWS Services Structure/EFS (Elastic File System.md",
+    "AWS Services Structure/EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2).md",
     "AWS Services Structure/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md",
     "AWS Services Structure/Elastic Beanstalk PaaS (Platform as a Service), , easy deployment.md",
     "AWS Services Structure/Lambda - Event-driven code, limits (15 min), Cold starts.md",
@@ -224,22 +224,7 @@
     "AWS Services Structure/EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved.md",
     "AWS Services Structure/Availability Zone and Region.md",
     "AWS Services Structure/API Gateway - REST HTTP APIs, Throttling, API Keys.md",
-    "AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
-    "AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
-    "AWS Services Structure/Storage Gateway File (S3.md",
-    "AWS Services Structure/Config What does my infrastructure look like (Comp 22f50618cbb880c8b456d34fc04e0b71.md",
-    "AWS Services Structure/KMS (Key Management Service.md",
     "New Text Document.txt",
-    "aws-study-notes/AWS Services Structure.md",
-    "aws-study-notes/AWS Services Structure/Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck).md",
-    "aws-study-notes/AWS Services Structure/Glue - Serverless ETL, Data Catalog.md",
-    "aws-study-notes/AWS Services Structure/EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ.md",
-    "aws-study-notes/AWS Services Structure/EKS (Elastic Kubernetes Service) - Kubernetes management.md",
-    "aws-study-notes/AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
-    "aws-study-notes/AWS Services Structure/EBS (Elastic Block Store) Persistent, Network-atta/Availability Zone and Region.md",
-    "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Lustre.md",
-    "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Windows File Server.md",
-    "aws-study-notes/AWS Services Structure/S3 (Simple Storage Service) Standard, Intelligent-/S3 Transfer Acceleration (S3TA).md",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
