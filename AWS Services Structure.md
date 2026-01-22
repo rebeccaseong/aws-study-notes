@@ -12,7 +12,7 @@
             - [[Lambda - Event-driven code, limits (15 min), Cold starts]]
             - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
         - **Other:**
-            - [[Elastic Beanstalk PaaS (Platform as a Service), , easy deployment]]
+            - [[Elastic Beanstalk PaaS (Platform as a Service), easy deployment]]
             - **AWS Batch:** Batch computing (HPC) using Spot instances.
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
