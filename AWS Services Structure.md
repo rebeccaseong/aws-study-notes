@@ -91,7 +91,7 @@
 	        - [[CloudTrail - Who did what (API Auditing)]]
 	        - [[Config - What does my infrastructure look like (Compliance Rules)]]
 	        - [[Trusted Advisor - Best practice checklist]]
-        - **Management:
+        - **Management:**
 	        - [[CloudFormation - Infrastructure as Code (JSON YAML)]]
 	        - [[Systems Manager (SSM) - Patch Manager, Session Manager, Session Manager (No SSH needed)]]
 	        - [[Organizations & Control Tower - SCPs (Service Control Policies), Consolidated Billing]]
@@ -113,7 +113,7 @@
 	        - [[SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO)]]
 	        - [[SNS (Simple Notification Service) - Pub Sub, Notifications to Email SMS Lambda]]
             - **Amazon MQ:** Broker for industry standards (MQTT, AMQP) - "Lift and shift" legacy apps.
-        - **Events & Workflow:
+        - **Events & Workflow:**
 	        - [[EventBridge - Serverless Event Bus, Rules, Scheduler]]
 	        - [[Step Functions - Visual workflow orchestration (State Machine)]]
 	        - [[SWF (Simple Workflow Service)]]
