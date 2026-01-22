@@ -1,5 +1,3 @@
-# VPC (Virtual Private Cloud) Fundamentals: CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).
-
 - **What is it? (1-Sentence Pitch):** Your own private, isolated section of the AWS cloud where you can launch resources in a virtual network that you define.
 - **Core VPC Components**
     

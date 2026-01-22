@@ -1,5 +1,3 @@
-# AWS Services Structure
-
 - AWS Service Outline
     - 0: Concepts: Availability Zone and Region
     - **1: Compute:**
@@ -123,21 +121,14 @@
             - **CodePipeline:** Orchestrate the flow.
     
 - AWS Service Outline Detailed
-    - 0: Concepts:
-        
-        [Availability Zone and Region](AWS%20Services%20Structure/Availability%20Zone%20and%20Region%2024b50618cbb880c4b68df386643c872d.md)
-        
+    - 0: Concepts:        
+        - [Availability Zone and Region](AWS%20Services%20Structure/Availability%20Zone%20and%20Region%2024b50618cbb880c4b68df386643c872d.md)
     - **1: Compute:**
-        
-        [ **EC2 (Elastic Compute Cloud):** Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.  ](AWS%20Services%20Structure/EC2%20(Elastic%20Compute%20Cloud)%20Instances,%20AMIs,%20User%20%2022f50618cbb88044b80fec4b587a9322.md)
-        
+        - [ **EC2 (Elastic Compute Cloud):** Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.  ](AWS%20Services%20Structure/EC2%20(Elastic%20Compute%20Cloud)%20Instances,%20AMIs,%20User%20%2022f50618cbb88044b80fec4b587a9322.md)
         - **Auto Scaling Groups (ASG):** Scaling policies (Target Tracking), Launch Templates.
         - **Containers:**
-            
-            [ECS **(Elastic Container Service):** Docker management.](AWS%20Services%20Structure/ECS%20(Elastic%20Container%20Service)%20Docker%20management%2022f50618cbb880448cfacce65da81644.md)
-            
-            [**EKS (Elastic Kubernetes Service):** Kubernetes management.](AWS%20Services%20Structure/EKS%20(Elastic%20Kubernetes%20Service)%20Kubernetes%20manage%2022f50618cbb880958ca5d185bf5db690.md)
-            
+            - [ECS **(Elastic Container Service):** Docker management.](AWS%20Services%20Structure/ECS%20(Elastic%20Container%20Service)%20Docker%20management%2022f50618cbb880448cfacce65da81644.md)
+            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](AWS%20Services%20Structure/EKS%20(Elastic%20Kubernetes%20Service)%20Kubernetes%20manage%2022f50618cbb880958ca5d185bf5db690.md)
             - **Fargate:** Serverless compute for containers (Exam favorite).
         - **Serverless:**
             
@@ -210,7 +201,7 @@
             
             [Glue**:** Serverless ETL, Data Catalog.](AWS%20Services%20Structure/Glue%20Serverless%20ETL,%20Data%20Catalog%2024750618cbb880588644ea84aff3e0ac.md)
             
-            [**Athena: Serverless SQL on S3 files.**](AWS%20Services%20Structure/Athena%20Serverless%20SQL%20on%20S3%20files%2022f50618cbb8802da308c6b35912a0ed.md)
+            [**Athena: Serverless SQL on S3 files.**](Athena%20Serverless%20SQL%20on%20S3%20files.md)
             
             - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
         - Streaming Analytics (Real-Time):
@@ -226,7 +217,7 @@
             - Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
     - **4: Networking & Content Delivery:**
         
-        [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](AWS%20Services%20Structure/VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Sub%2022f50618cbb880009ddac683ccb779f3.md)
+        [VPC **(Virtual Private Cloud) Fundamentals:** CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW).](VPC%20(Virtual%20Private%20Cloud)%20Fundamentals%20CIDR,%20Subnets%20(Public%20vs.%20Private),%20Route%20Tables,%20Internet%20Gateway%20(IGW)..md)
         
         - Security Groups vs NACLs (Critical Comparison)
         - **Connectivity:**
@@ -235,7 +226,7 @@
             - **VPC Peering:** Connect two VPCs.
             - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
             
-            [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](AWS%20Services%20Structure/VPN%20vs%20Direct%20Connect%20Public%20internet%20encrypted%20tu%2022f50618cbb8805da645ef3fd12792de.md)
+            [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)
             
         - **Delivery & Traffic:**
             
@@ -338,7 +329,7 @@
             
             [SWF **(Simple Workflow Service)**](AWS%20Services%20Structure/SWF%20(Simple%20Workflow%20Service)%2022f50618cbb880688420c2233121fd1f.md)
             
-            [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](AWS%20Services%20Structure/API%20Gateway%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys%2022f50618cbb880b58b13f3f261176032.md)
+            [API Gateway**:** REST/HTTP APIs, Throttling, API Keys.](API%20Gateway%20REST%20HTTP%20APIs,%20Throttling,%20API%20Keys.md)
             
     - **9: Developer Tools:**
         - **CI/CD Pipeline:**
@@ -352,73 +343,3 @@
             [CodePipeline**:** Orchestrate the flow.](AWS%20Services%20Structure/CodePipeline%20Orchestrate%20the%20flow%2022f50618cbb8802ba737ed2ceb9bcf6e.md)
             
     
-
-- Practice Exams | AWS Certified Solutions Architect Associate
-    
-    ## Practice Exams 1
-    
-    - 1
-        - CDN
-            - To optimize the website loading times for users in Asia while keeping the backend in the United States, the recommended immediate solution is to use a **Content Delivery Network (CDN)** like Amazon CloudFront.
-            - A CDN caches content at edge locations closer to users, significantly reducing latency and improving load times
-        - CloudFront (AWS CDN Service)
-            - **Use Amazon CloudFront with a custom origin pointing to the on-premises servers (Correct)**
-                - A **custom origin** is any HTTP(S) server that is not an Amazon S3 bucket. This could be a web server running on an on-premises infrastructure or hosted on another cloud provider. When you set up a CloudFront distribution, you can specify this custom origin by providing its publicly resolvable DNS name. This allows CloudFront to fetch content from your on-premises server when users request it
-                - When you configure CloudFront to **point to the on-premises servers**, you are essentially telling CloudFront where to retrieve the original content that it will distribute to users. This involves specifying the URL of your on-premises server in the CloudFront distribution settings. By doing this, CloudFront can cache static content closer to users in various geographic locations, while still retrieving dynamic content from your existing servers located in the United States
-            - **Use Amazon CloudFront with a custom origin pointing to the DNS record of the website on Amazon Route 53**
-                - This option has been added as a distractor. CloudFront cannot have a custom origin pointing to the DNS record of the website on Route 53.
-                - Why Directly Pointing to the On-Premises Servers Is Correct
-                    - **CloudFront's custom origin** should be set to the actual public DNS name or IP address of your **on-premises servers**. This ensures CloudFront fetches content directly from the source, allowing it to cache and accelerate delivery to users in Asia.
-                - **What Happens If You Point to a Route 53 DNS Record Instead?**
-                    - If you configure CloudFront's origin as a **Route 53 DNS record** that resolves to your on-premises website, CloudFront must perform a DNS lookup each time it needs to fetch content from the origin.
-                    - This can introduce **additional DNS resolution latency** and potential points of failure, especially if the Route 53 record is misconfigured or uses advanced routing policies that could inadvertently direct CloudFront to the wrong endpoint.
-                    - Using Route 53 as an intermediary does **not provide any acceleration or caching benefit**; it simply adds an extra layer of DNS resolution between CloudFront and your origin.
-            - Leverage an Amazon Route 53 geo-proximity routing policy pointing to on-premises servers
-                - While this option could theoretically route traffic based on geographic proximity, it is not optimal for immediate performance improvements. Geo-proximity routing relies heavily on DNS resolution, which may not always direct users to the nearest resource due to DNS caching and other factors. Additionally, this approach does not provide caching benefits that a CDN like CloudFront offers, which would store content closer to users and reduce load times significantly. Therefore, relying solely on Route 53 for routing would not achieve the same level of performance optimization as using CloudFront with a custom origin
-                - **Geo-proximity routing is not appropriate because:** It is designed for situations where you have multiple resources in different locations and want to route users to the nearest one. Here, there is only one backend resource (in the US), so geo-proximity routing offers no benefit
-            - **Migrate the website to Amazon S3. Use S3 cross-region replication (S3 CRR) between AWS Regions in the US and Asia**
-                - This option is incorrect because migrating the entire website to S3 and implementing cross-region replication is a significant undertaking that may not be feasible within a short timeframe, especially since the website is launching imminently. Moreover, S3 CRR is designed for object storage and does not directly address dynamic content delivery or caching, which are critical for optimizing loading times. This migration would also require rearchitecting parts of the application and could introduce additional latency during replication processes. In contrast, using CloudFront with a custom origin allows for immediate optimization without such extensive changes
-    - 2
-        - The company is migrating **SMB(Server Message Block) file shares**, which are natively supported by **Amazon FSx for Windows File Server**. This service provides a fully managed Windows file system with support for the SMB protocol, Active Directory integration, and Windows-native features
-        - **Amazon Storage Gateway’s File Gateway** is designed to provide on-premises access to data stored in **Amazon S3** using NFS or SMB protocols. It is not intended to connect directly to **Amazon FSx for Windows File Server**
-        - **Use Amazon Storage Gateway’s File Gateway to provide low-latency, on-premises access to fully managed file shares in Amazon FSx for Windows File Server. The applications deployed on AWS can access this data directly from Amazon FSx in AWS**
-            - When you need to access S3 using a file system protocol, you should use File Gateway. You get a local cache in the gateway that provides high throughput and low latency over SMB. AWS Storage Gateway’s File Gateway does not support file shares in Amazon FSx for Windows File Server, so this option is incorrect.
-                1. **The Standard "File Gateway"**: This tool is designed to connect your office to Amazon S3. Amazon S3 is like a giant, basic warehouse for storing files. The File Gateway makes this warehouse look and act like a normal shared folder on your office network. Its main job is to work with S3.
-                2. **The Special "Amazon FSx File Gateway"**: This is a different, more specialized tool. It's designed to connect your office specifically to Amazon FSx for Windows File Server. FSx is not just a basic warehouse; it's a fully-featured "cloud hard drive" that works exactly like a traditional Windows server.
-                
-                The option is incorrect because it suggests using the wrong tool for the job. It says to use the standard "File Gateway" (the S3 tool) to connect to FSx (the advanced "cloud hard drive"). That connection is not supported.
-                
-    - 10
-        
-        Here is how it solves the problem using **Path-based Routing**:
-        
-        1. **Listener:** The ALB has a "Listener" that waits for incoming traffic on a specific port (in this case, port 443 for HTTPS).
-        2. **Rules:** The Listener has a set of "Rules" that it evaluates in order of priority. Each rule is a simple "IF-THEN" statement.
-        3. **Conditions (The "IF"):** The "IF" part of the rule is the condition. For this use case, you would create rules with a **path condition**:
-            - Rule 1 Condition: **IF** the URL path is /orders/*...
-            - Rule 2 Condition: **IF** the URL path is /products/*...
-        4. **Actions (The "THEN"):** The "THEN" part of the rule is the action. The action tells the ALB what to do with the traffic that matches the condition.
-            - Rule 1 Action: ...**THEN** forward the request to the orders-microservice-target-group.
-            - Rule 2 Action: ...**THEN** forward the request to the products-microservice-target-group.
-        
-        **Target Groups** are simply the collections of EC2 instances that are running each specific microservice.
-        
-    - 3
-        - **ElastiCache Memcached: The Simple Bulletin Board**
-            - Think of **Memcached** as a simple **bulletin board** on the counter.
-            - **What it does:** You can pin a piece of paper (your data) to the board with a label (a "key"). You can quickly grab the paper by looking for its label. That's it.
-            - **Simplicity is Speed:** Because it's so simple, it is incredibly fast.
-            - **Temporary:** If you turn off the power (restart the service), the bulletin board is wiped clean. It's only for temporary, quick-access storage.
-            - **Best for:** Simple caching. When you just need to store something and get it back as fast as possible, like the results of a database query or a user's session information.
-            - **In short: Memcached is a very fast, very simple, temporary memory holder.**
-        - **ElastiCache Redis: The Smart Organizer Shelf**
-            - Think of **Redis** as a **smart, multi-functional organizer shelf** on the counter.
-            - **What it does:** It's not just a bulletin board. It has special compartments. You can store a simple item, but you can also store organized **lists** (like a queue of drink orders), **leaderboards** (like a sorted list of top customers), and unique collections of items.
-            - **More Features:** It's a "Swiss Army Knife." It can do more than just store and retrieve. It can act as a message system, run counters, and manage more complex data.
-            - **Durable:** You can tell this shelf to periodically take a picture of its contents and save it. If the power goes out, it can look at the picture and put everything back. Your data isn't lost.
-            - **Best for:** Complex caching, leaderboards, real-time messaging, and situations where you need data to survive a restart.
-            - **In short: Redis is a powerful, fast, multi-tool data holder that can store complex data and can save it permanently.**
-    - 4
-    - 5
-        - Unlike other S3 Storage Classes which store data in a minimum of three Availability Zones (AZs), Amazon S3 One Zone-IA stores data in a single Availability Zone (AZ) and costs 20% less than Amazon S3 Standard-IA.
-    -

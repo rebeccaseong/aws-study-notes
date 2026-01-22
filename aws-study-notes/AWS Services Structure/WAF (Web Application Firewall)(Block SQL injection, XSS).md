@@ -1,5 +1,3 @@
-# WAF (Web Application Firewall)(Block SQL injection/XSS)
-
 - **What is it? (1-Sentence Pitch):** A web application firewall that helps protect your web applications from common web exploits like SQL injection and cross-site scripting.
 - **Core Use Cases:** Filtering malicious web traffic before it reaches your application.
 - **Key Features & Concepts:**
@@ -17,8 +15,6 @@
         3. **Amazon API Gateway:** You can attach a WAF to protect your REST and HTTP APIs from malicious requests.
         4. **AWS AppSync:** Protects your GraphQL APIs.
 - **When Do We Use a Firewall? (WAF vs. Other Firewalls)**
-    
-    
     | **Firewall Type** | **AWS WAF (Web Application Firewall)** | **Security Groups & NACLs (Network Firewall)** | **AWS Network Firewall** |
     | --- | --- | --- | --- |
     | **Analogy** | **The Bag-Checking Security Guard** at your application's front door. | **The Property Gatekeeper** checking your ID and what door you can use. | **The Central Security Checkpoint** for the entire corporate campus (VPC). |

@@ -12,4 +12,4 @@
     - **Throughput Optimized HDD (st1):** Low-cost HDD designed for frequently accessed, throughput-intensive workloads like big data and data warehousing.
     - **Cold HDD (sc1):** Lowest cost HDD for less frequently accessed workloads.
 
-[Availability Zone and Region](EBS%20(Elastic%20Block%20Store)%20Persistent,%20Network-atta/Availability%20Zone%20and%20Region%202eb50618cbb88009aa96c0a9700ec535.md)
+[Availability Zone and Region](Availability%20Zone%20and%20Region.md)
