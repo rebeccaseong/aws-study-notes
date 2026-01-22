@@ -1,45 +1,34 @@
 - AWS Service Outline
-    - 0: Concepts:        
-        - [Availability Zone and Region](aws-study-notes/AWS%20Services%20Structure/Availability%20Zone%20and%20Region.md)
+    - 0: Concepts:
+        - [[Availability Zone and Region]]
     - **1: Compute:**
-        - [ **EC2 (Elastic Compute Cloud):** Instances, AMIs, User Data, Spot vs. On-Demand vs. Reserved.  ](EC2%20(Elastic%20Compute%20Cloud)%20-%20Instances,%20AMIs,%20User%20Data,%20Spot%20vs%20On-Demand%20vs%20Reserved.md)
+        - [[EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved]]
         - **Auto Scaling Groups (ASG):** Scaling policies (Target Tracking), Launch Templates.
         - **Containers:**
-            - [ECS **(Elastic Container Service):** Docker management.](ECS%20(Elastic%20Container%20Service)%20-%20Docker%20management.md)
-            - [**EKS (Elastic Kubernetes Service):** Kubernetes management.](EKS%20(Elastic%20Kubernetes%20Service)%20-%20Kubernetes%20management.md)
+            - [[ECS (Elastic Container Service) - Docker management]]
+            - [[EKS (Elastic Kubernetes Service) - Kubernetes management]]
             - **Fargate:** Serverless compute for containers (Exam favorite).
         - **Serverless:**
-            - [Lambda**:** Event-driven code, limits (15 min), Cold starts.](Lambda%20-%20Event-driven%20code,%20limits%20(15%20min),%20Cold%20starts.md)
+            - [[Lambda - Event-driven code, limits (15 min), Cold starts]]
             - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
         - **Other:**
-            - [Elastic Beanstalk**:** PaaS (Platform as a Service), easy deployment.](Elastic%20Beanstalk%20PaaS%20(Platform%20as%20a%20Service),%20,%20easy%20deployment.md)
+            - [[Elastic Beanstalk PaaS (Platform as a Service), , easy deployment]]
             - **AWS Batch:** Batch computing (HPC) using Spot instances.
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
             - **Wavelength:** Ultra-low latency for 5G devices.
     - **2: Storage & File Systems:**
         - Object Storage:
-            - [**S3 (Simple Storage Service)**: Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.](S3%20(Simple%20Storage%20Service)%20-%20Standard,%20Intelligent-Tiering,%20Glacier%20(Archive),%20Lifecycle%20Policies,%20Versioning.md)
+            - [[S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning]]
         - Block Storage:
-            - [**EBS (Elastic Block Store)**: Persistent, Network-attached (gp3, io2).](EBS%20(Elastic%20Block%20Store)%20-%20Persistent,%20Network-attached%20(gp3,%20io2).md)
+            - [[EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2)]]
             - Instance Store: Ephemeral, High Random I/O, locally attached.
         - File Storage:
             - [**EFS (Elastic File System)** — *Linux:* : Shared Linux (NFS), cross-AZ.](AWS%20Services%20Structure/EFS%20(Elastic%20File%20System)
             - [**FSx (File System for X)** — *Windows:* : Windows (SMB), Lustre (HPC), NetApp ONTAP.](FSx%20(File%20System%20for%20X)%20-%20Windows%20Windows%20(SMB),%20Lustre%20(HPC),%20NetApp%20ONTAP.md)
         - Hybrid Storage:
 	        - [[Storage Gateway File (S3), Volume (iSCSI), Tape (VTL)]]]
-        - **Storage Cheat Sheet for SAA Exam**
-            | **If the question mentions...** | **The answer is likely...** |
-            | --- | --- |
-            | Storing files, static website hosting, infinite scale | **S3** |
-            | The "hard drive" or boot volume for a single EC2 instance | **EBS** |
-            | A shared network drive for many **Linux** EC2 instances | **EFS** (NFS) |
-            | A shared network drive for many **Windows** EC2 instances | **FSx for Windows** (SMB) |
-            | High-performance computing (HPC) or video rendering | **FSx for Lustre** |
-            | Long-term, low-cost data archival | **S3 Glacier** |
-            | Extreme performance (High Random I/O) or "Ephemeral" storage | Instance Store |
-            | Migrating on-premise VMware/Hyper-V disks to AWS | Storage Gateway (Volume)|
-            | Replacing physical tape backups | Storage Gateway (Tape) |
+        - [[Storage Cheat Sheet for SAA Exam]]
     - **3: Databases, Caching & Analytics:**
         - **Relational Databases (SQL):**
 	        - [**RDS (Relational Database Service):** Managed Postgres/MySQL/etc., Multi-AZ (Disaster Recovery) vs. Read Replicas (Performance).](RDS%20(Relational%20Database%20Service)%20Managed%20Postgres%20MySQL%20etc.,%20Multi-AZ%20(Disaster%20Recovery)%20vs%20Read%20Replicas%20(Performance).md)

@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cdaea373452670e6",
+        "id": "7bf8754a9d6cc7c9",
         "type": "tabs",
         "children": [
           {
-            "id": "95056709ce1dccda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Storage Gateway File (S3), Volume (iSCSI), Tape (VTL)"
-            }
-          },
-          {
-            "id": "fc8bb2c8e57fd263",
+            "id": "d5576deb3c1400ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +22,17 @@
             }
           },
           {
-            "id": "8db2a44f0f3b7172",
+            "id": "371a7ef29968e426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
+                "file": "AWS Services Structure/EFS (Elastic File System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access)"
+              "title": "EFS (Elastic File System"
             }
           }
         ],
@@ -225,16 +211,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc8bb2c8e57fd263",
+  "active": "371a7ef29968e426",
   "lastOpenFiles": [
-    "AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
+    "AWS Services Structure/EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2).md",
+    "AWS Services Structure/EFS (Elastic File System.md",
     "AWS Services Structure.md",
+    "AWS Services Structure/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md",
+    "AWS Services Structure/Elastic Beanstalk PaaS (Platform as a Service), , easy deployment.md",
+    "AWS Services Structure/Lambda - Event-driven code, limits (15 min), Cold starts.md",
+    "AWS Services Structure/ECS (Elastic Container Service) - Docker management.md",
+    "Storage Cheat Sheet for SAA Exam.md",
+    "AWS Services Structure/EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved.md",
+    "AWS Services Structure/Availability Zone and Region.md",
+    "AWS Services Structure/API Gateway - REST HTTP APIs, Throttling, API Keys.md",
+    "AWS Services Structure/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md",
     "AWS Services Structure/Storage Gateway File (S3), Volume (iSCSI), Tape (VTL).md",
     "AWS Services Structure/Storage Gateway File (S3.md",
     "AWS Services Structure/Config What does my infrastructure look like (Comp 22f50618cbb880c8b456d34fc04e0b71.md",
     "AWS Services Structure/KMS (Key Management Service.md",
     "New Text Document.txt",
-    "Untitled.md",
     "aws-study-notes/AWS Services Structure.md",
     "aws-study-notes/AWS Services Structure/Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck).md",
     "aws-study-notes/AWS Services Structure/Glue - Serverless ETL, Data Catalog.md",
@@ -246,15 +241,6 @@
     "aws-study-notes/AWS Services Structure/FSx (File System for X) — Windows Windows (SMB), L/FSx for Windows File Server.md",
     "aws-study-notes/AWS Services Structure/S3 (Simple Storage Service) Standard, Intelligent-/S3 Transfer Acceleration (S3TA).md",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
-    "aws-study-notes/AWS Services Structure/API Gateway - REST HTTP APIs, Throttling, API Keys.md",
-    "aws-study-notes/AWS Services Structure/Athena - Serverless SQL on S3 files.md",
-    "aws-study-notes/AWS Services Structure/Aurora - Cloud native, high performance, Serverless v2, Global Database.md",
-    "aws-study-notes/AWS Services Structure/Availability Zone and Region.md",
-    "aws-study-notes/AWS Services Structure/CloudFormation - Infrastructure as Code (JSON YAML).md",
-    "aws-study-notes/AWS Services Structure/CloudFront CDN (Content Delivery Network), caching at Edge.md",
-    "aws-study-notes/AWS Services Structure/CloudHSM (Hardware Security Module) - Dedicated hardware (compliance).md",
-    "aws-study-notes/AWS Services Structure/CloudTrail - Who did what (API Auditing).md",
-    "aws-study-notes/AWS Services Structure/CloudWatch - Metrics, Alarms, Logs (Performance).md",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
   ]
 }
