@@ -57,35 +57,35 @@
             - **VPC Endpoints:** PrivateLink (Interface) vs. Gateway (S3/DynamoDB).
             - **VPC Peering:** Connect two VPCs.
             - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
-            - [**VPN vs. Direct Connect:** Public internet encrypted tunnel vs. Private physical fiber.](VPN%20vs%20Direct%20Connect%20-%20Public%20internet%20encrypted%20tunnel%20vs.%20Private%20physical%20fiber..md)   
+            - [[VPN vs Direct Connect - Public internet encrypted tunnel vs. Private physical fiber]]
         - **Delivery & Traffic:**
-            - [Route 53**:** DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation).](Route%2053%20DNS%20records%20(A,%20CNAME,%20Alias),%20Routing%20Policies%20(Failover,%20Latency,%20Geolocation).md)
-            - [CloudFront**:** CDN (Content Delivery Network), caching at Edge.](CloudFront%20CDN%20(Content%20Delivery%20Network),%20caching%20at%20Edge.md)
+            - [[Route 53 DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation)]]
+            - [[CloudFront CDN (Content Delivery Network), caching at Edge]]
             - **Global Accelerator:** Static IP, improves performance via AWS backbone (not caching)
-        - [**Elastic Load Balancing (ELB)**](Elastic%20Load%20Balancing%20(ELB).md)
+        - [[Elastic Load Balancing (ELB)]]
             - **Load Balancing:** ALB (Layer 7/HTTP), NLB (Layer 4/TCP/UDP), GWLB (Security appliances).
     - **5: Security, Identity & Compliance:**
         - **Identity:**
-	        - [IAM **(Identity and Access Management):** Users, Roles, Policies, MFA.](IAM%20(Identity%20and%20Access%20Management)%20-%20Users,%20Roles,%20Policies,%20MFA.md)
+	        - [[IAM (Identity and Access Management) - Users, Roles, Policies, MFA]]
 	        - [[Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access)]]
             - **IAM Identity Center (SSO):** Centralized login for organizations.
             - **STS (Security Token Service):** Temporary credentials, AssumeRole.
         - **Data Protection:**
-	        - [KMS **(Key Management Service): Encryption keys (managed).**](AWS%20Services%20Structure/KMS%20(Key%20Management%20Service)
-	        - [CloudHSM **(Hardware Security Module):** Dedicated hardware (compliance).](CloudHSM%20(Hardware%20Security%20Module)%20-%20Dedicated%20hardware%20(compliance).md)
-	        - [**Secrets Manager:** Rotate DB credentials automatically.](Secrets%20Manager%20-%20Rotate%20DB%20credentials%20automatically.md)
+	        - [[KMS (Key Management Service) - Encryption keys (managed)]]
+	        - [[CloudHSM (Hardware Security Module) - Dedicated hardware (compliance)]]
+	        - [[Secrets Manager - Rotate DB credentials automatically]]
             - **Systems Manager Parameter Store:** Store config/secrets (free tier).
             - **AWS Certificate Manager (ACM):** Free SSL/TLS certs for ALB, CloudFront, API Gateway.
         - **Protection Services:**
-	        - [Shield: DDoS protection (Standard vs. Advanced).](Shield%20-%20DDoS%20protection%20(Standard%20vs%20Advanced).md)
+	        - [[Shield - DDoS protection (Standard vs Advanced)]]
 	        - [WAF **(Web Application Firewall)**(Block SQL injection/XSS)](AWS%20Services%20Structure/WAF%20(Web%20Application%20Firewall)
-	        - [GuardDuty**:** Intelligent threat detection (logs analysis).](AWS%20Services%20Structure/GuardDuty%20Intelligent%20threat%20detection%20(logs%20analy%2022f50618cbb88025a7caf4fc8e17357a.md)
-	        - [**Macie:** PII/Sensitive data discovery in S3.](Macie%20-%20PII%20Sensitive%20data%20discovery%20in%20S3.md)
+	        - [[GuardDuty - Intelligent threat detection (logs analysis)]]
+	        - [[Macie - PII Sensitive data discovery in S3]]
             - **Inspector:** EC2 vulnerability scanning.
             - **AWS Firewall Manager:** Centrally manage WAF/Shield across accounts.
     - **6: Monitoring, Management & Governance:**
         - **Monitoring:**
-	        - [CloudWatch**:** Metrics, Alarms, Logs (Performance).](CloudWatch%20-%20Metrics,%20Alarms,%20Logs%20(Performance).md)
+	        - [[CloudWatch - Metrics, Alarms, Logs (Performance)]]
             - **X-Ray:** Tracing and debugging distributed apps/Lambda.
         - **Audit & Governance:**
 	        - [CloudTrail**:** "Who did what?" (API Auditing).](CloudTrail%20-%20Who%20did%20what%20(API%20Auditing).md)
