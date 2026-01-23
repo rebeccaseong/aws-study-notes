@@ -3,17 +3,19 @@
         - [[Availability Zone and Region]]
     - **1: Compute:**
         - [[EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved]]
-        - **Auto Scaling Groups (ASG):** Scaling policies (Target Tracking), Launch Templates.
+        - [[Auto Scaling Groups (ASG) - Scaling policies, Launch Templates]]
+        - [[Comparison - EC2 vs Lambda vs Fargate vs ECS vs EKS]]
+        - [[Cheat Sheet - EC2 Instance Types (Families & Use Cases)]]
         - **Containers:**
             - [[ECS (Elastic Container Service) - Docker management]]
             - [[EKS (Elastic Kubernetes Service) - Kubernetes management]]
-            - **Fargate:** Serverless compute for containers (Exam favorite).
+            - [[Fargate - Serverless compute for containers]]
         - **Serverless:**
             - [[Lambda - Event-driven code, limits (15 min), Cold starts]]
-            - **Lambda@Edge:** Run Lambda at CloudFront edge locations.
+            - [[Lambda@Edge - Run Lambda at CloudFront edge locations]]
         - **Other:**
             - [[Elastic Beanstalk PaaS (Platform as a Service), easy deployment]]
-            - **AWS Batch:** Batch computing (HPC) using Spot instances.
+            - [[Batch - Batch computing HPC, Spot instances]]
             - **AWS Outposts:** Run AWS infrastructure on-premises.
             - **Local Zones:** Extend AWS regions closer to end users.
             - **Wavelength:** Ultra-low latency for 5G devices.
@@ -22,7 +24,8 @@
             - [[S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning]]
         - Block Storage:
             - [[EBS (Elastic Block Store) - Persistent, Network-attached (gp3, io2)]]
-            - Instance Store: Ephemeral, High Random I/O, locally attached.
+            - [[Comparison - EBS Volume Types (gp2, gp3, io1, io2, st1, sc1)]]
+            - [[Instance Store - Ephemeral, High Random IO, locally attached]]
         - File Storage:
             - [[EFS (Elastic File System) - Linux Shared Linux (NFS), cross-AZ]]
             - [[FSx (File System for X) - Windows Windows (SMB), Lustre (HPC), NetApp ONTAP]]
@@ -33,62 +36,71 @@
         - **Relational Databases (SQL):**
 	        - [[RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance)]]
 	        - [[Aurora - Cloud native, high performance, Serverless v2, Global Database]]
+	        - [[Comparison - RDS vs Aurora vs DynamoDB]]
         - **NoSQL Databases:**
 	        - [[DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables]]
         - **Caching:**
             - [[ElastiCache Redis (complex data structures) vs Memcached (simple)]]
-            - **DAX:** Caching specifically for DynamoDB.
+            - [[DAX - DynamoDB Accelerator, microsecond latency]]
+            - [[Comparison - ElastiCache Redis vs Memcached vs DAX]]
         - Batch Analytics (Big Data):
 	        - [[Redshift Data Warehouse, Columnar storage (OLAP)]]
 	        - [[EMR (Elastic MapReduce) - Hadoop Spark clusters, high maintenance]]
 	        - [[Glue - Serverless ETL, Data Catalog]]
 	        - [[Athena - Serverless SQL on S3 files]]
-	        - **OpenSearch (formerly Elasticsearch):** Log analytics, search, dashboards.
-        - Streaming Analytics (Real-Time): 
+	        - [[OpenSearch - Log analytics, search, dashboards]]
+	        - [[Comparison - Athena vs Redshift vs EMR vs OpenSearch]]
+        - Streaming Analytics (Real-Time):
 	        - [[Kinesis Data Streams - Real-time ingestion, requires shard management (The Pipe)]]
 			- [[Kinesis Data Firehose - Near real-time delivery to S3 Redshift, zero admin, supports Lambda transformation (The Delivery Truck)]]
 			- [[Kinesis Data Analytics - SQL Flink analysis inside the stream]]
 			- [[Cheat Sheet - Kinesis - Which one to pick]]
-			- Amazon MSK: Managed Kafka (alternative to Kinesis Data Streams).
+			- [[MSK - Managed Kafka, alternative to Kinesis]]
     - **4: Networking & Content Delivery:**
         -  [[VPC (Virtual Private Cloud) - Fundamentals CIDR, Subnets (Public vs. Private), Route Tables, Internet Gateway (IGW)]]
         - [[Comparison - Security Groups vs NACLs]]
         - **Connectivity:**
-            - **NAT Gateway:** Allows private subnets to talk to the internet.
-            - **VPC Endpoints:** PrivateLink (Interface) vs. Gateway (S3/DynamoDB).
-            - **VPC Peering:** Connect two VPCs.
-            - **Transit Gateway:** Hub-and-spoke topology for many VPCs.
+            - [[NAT Gateway - Allow private subnets to talk to internet]]
+            - [[VPC Endpoints - PrivateLink (Interface) vs Gateway (S3 DynamoDB)]]
+            - [[VPC Peering - Connect two VPCs]]
+            - [[Transit Gateway - Hub-and-spoke for many VPCs]]
+            - [[Comparison - VPC Peering vs Transit Gateway vs PrivateLink]]
             - [[VPN vs Direct Connect - Public internet encrypted tunnel vs. Private physical fiber]]
         - **Delivery & Traffic:**
             - [[Route 53 - DNS records (A, CNAME, Alias), Routing Policies (Failover, Latency, Geolocation)]]
+            - [[Cheat Sheet - Route 53 Routing Policies]]
             - [[CloudFront CDN (Content Delivery Network), caching at Edge]]
-            - [[Global Accelerator - Static IP, improves performance via AWS backbone (not caching)]]
+            - [[Global Accelerator - Static IP, improves performance via AWS backbone (not caching)]]
             - [[Comparation - Global Accelerator vs CloudFront]]
         - [[Elastic Load Balancing (ELB)]]
-            - **Load Balancing:** ALB (Layer 7/HTTP), NLB (Layer 4/TCP/UDP), GWLB (Security appliances).
+            - **Load Balancing:** ALB (Layer 7/HTTP), NLB (Layer 4/TCP/UDP), GWLB (Security appliances).
+            - [[Comparison - ALB vs NLB vs GWLB]]
     - **5: Security, Identity & Compliance:**
         - **Identity:**
 	        - [[IAM (Identity and Access Management) - Users, Roles, Policies, MFA]]
+	        - [[Cheat Sheet - IAM Best Practices]]
 	        - [[Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access)]]
-            - **IAM Identity Center (SSO):** Centralized login for organizations.
-            - **STS (Security Token Service):** Temporary credentials, AssumeRole.
+            - [[IAM Identity Center (SSO) - Centralized login for organizations]]
+            - [[STS - Security Token Service, Temporary credentials, AssumeRole]]
         - **Data Protection:**
 	        - [[KMS (Key Management Service) - Encryption keys (managed)]]
 	        - [[CloudHSM (Hardware Security Module) - Dedicated hardware (compliance)]]
 	        - [[Secrets Manager - Rotate DB credentials automatically]]
-            - **Systems Manager Parameter Store:** Store config/secrets (free tier).
-            - **AWS Certificate Manager (ACM):** Free SSL/TLS certs for ALB, CloudFront, API Gateway.
+            - [[Systems Manager Parameter Store - Store config secrets, free tier]]
+            - [[Certificate Manager (ACM) - Free SSL TLS certs for ALB CloudFront API Gateway]]
+            - [[Comparison - KMS vs CloudHSM vs Secrets Manager vs Parameter Store]]
         - **Protection Services:**
 	        - [[Shield - DDoS protection (Standard vs Advanced)]]
 	        - [[WAF (Web Application Firewall) - Block SQL injection XSS]]
 	        - [[GuardDuty - Intelligent threat detection (logs analysis)]]
 	        - [[Macie - PII Sensitive data discovery in S3]]
-            - **Inspector:** EC2 vulnerability scanning.
-            - **AWS Firewall Manager:** Centrally manage WAF/Shield across accounts.
+            - [[Inspector - EC2 vulnerability scanning]]
+            - [[Firewall Manager - Centrally manage WAF Shield across accounts]]
     - **6: Monitoring, Management & Governance:**
         - **Monitoring:**
 	        - [[CloudWatch - Metrics, Alarms, Logs (Performance)]]
-            - **X-Ray:** Tracing and debugging distributed apps/Lambda.
+            - [[X-Ray - Tracing and debugging distributed apps Lambda]]
+            - [[Comparison - CloudWatch vs CloudTrail vs Config vs X-Ray]]
         - **Audit & Governance:**
 	        - [[CloudTrail - Who did what (API Auditing)]]
 	        - [[Config - What does my infrastructure look like (Compliance Rules)]]
@@ -97,28 +109,31 @@
 	        - [[CloudFormation - Infrastructure as Code (JSON YAML)]]
 	        - [[Systems Manager (SSM) - Patch Manager, Session Manager, Session Manager (No SSH needed)]]
 	        - [[Organizations & Control Tower - SCPs (Service Control Policies), Consolidated Billing]]
-            - **Cost Explorer & Compute Optimizer:** Saving money.
-            - **AWS Budgets:** Set alerts when costs exceed thresholds.
+            - [[Cost Explorer & Compute Optimizer - Saving money]]
+            - [[Budgets - Set alerts when costs exceed thresholds]]
     - **7: Migration & Transfer:**
         - **Migration:**
 	        - [[DMS (Database Migration Service) - Move DBs while keeping source live]]
 	        - [[MGN (Application Migration Service) - Lift-and-shift servers]]
-            - **Schema Conversion Tool (SCT):** Convert Oracle to Aurora.
+            - [[Schema Conversion Tool (SCT) - Convert Oracle to Aurora]]
         - **Transfer:**
-            - **Snow Family:** Physical devices (Snowcone, Snowball Edge, Snowmobile) for massive data.
+            - [[Snow Family - Physical devices Snowcone Snowball Edge Snowmobile]]
             - [[DataSync - Automated data transfer (NAS to S3)]]
             - [[Transfer Family - FTP SFTP to S3]]
             - [[Snowball]]
             - [[Storage Gateway]]
+            - [[Comparison - DataSync vs Transfer Family vs Snow Family vs Storage Gateway]]
     - **8: Application Integration:**
         - **Messaging:**
 	        - [[SQS (Simple Queue Service) - Decoupling, Queueing (Standard vs. FIFO)]]
 	        - [[SNS (Simple Notification Service) - Pub Sub, Notifications to Email SMS Lambda]]
-            - **Amazon MQ:** Broker for industry standards (MQTT, AMQP) - "Lift and shift" legacy apps.
+            - [[MQ - Broker for MQTT AMQP, lift-and-shift legacy apps]]
+            - [[Comparison - SQS vs SNS vs EventBridge vs MQ]]
         - **Events & Workflow:**
 	        - [[EventBridge - Serverless Event Bus, Rules, Scheduler]]
 	        - [[Step Functions - Visual workflow orchestration (State Machine)]]
 	        - [[SWF (Simple Workflow Service)]]
+	        - [[Comparison - Step Functions vs SWF]]
 	        - [[API Gateway - REST HTTP APIs, Throttling, API Keys]]
     - **9: Developer Tools:**
         - **CI/CD Pipeline:**
@@ -126,3 +141,4 @@
 	        - [[CodeBuild - Build and test]]
 	        - [[CodeDeploy - Deploy to EC2, Lambda]]
 	        - [[CodePipeline - Orchestrate the flow]]
+	        - [[Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline)]]

@@ -223,6 +223,8 @@
   },
   "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure.md.tmp.1023.1769126849991",
+    "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md.tmp.1023.1769126595154",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md.tmp.1023.1769095693349",
     "AWS Services Structure/8 Application Integration/Comparison - Step Functions vs SWF.md",
@@ -257,8 +259,6 @@
     "AWS Services Structure/8 Application Integration/MQ - Broker for industry standards (MQTT, AMQP) lift and shift legacy apps.md",
     "AWS Services Structure/6 Monitoring, Management & Governance/Budgets - Set alerts when costs exceed thresholds.md",
     "AWS Services Structure/5 Security, Identity & Compliance/Firewall Manager - Centrally manage WAF Shield across accounts.md",
-    "AWS Services Structure/5 Security, Identity & Compliance/Certificate Manager (ACM) - Free SSL TLS certs for ALB CloudFront API Gateway.md",
-    "AWS Services Structure/1 Compute/Cheat Sheet - EC2 Instance Types (Families & Use Cases).md.tmp.1023.1769094980757",
     "AWS Services Structure/0 Concept/image.png",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
