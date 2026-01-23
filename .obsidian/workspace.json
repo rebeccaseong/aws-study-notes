@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
+                "file": "AWS Services Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparison - ALB vs NLB vs GWLB"
+              "title": "AWS Services Structure"
             }
           }
         ],
@@ -223,6 +223,7 @@
   },
   "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure.md.tmp.1023.1769126849991",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md.tmp.1023.1769126595154",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
@@ -244,7 +245,6 @@
     "AWS Services Structure/4 Networking & Content Delivery/Cheat Sheet - Route 53 Routing Policies.md.tmp.1023.1769095448910",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - VPC Peering vs Transit Gateway vs PrivateLink.md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - VPC Peering vs Transit Gateway vs PrivateLink.md.tmp.1023.1769095413663",
-    "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - Athena vs Redshift vs EMR vs OpenSearch.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - Athena vs Redshift vs EMR vs OpenSearch.md.tmp.1023.1769095350217",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - ElastiCache Redis vs Memcached vs DAX.md",
@@ -254,7 +254,6 @@
     "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
     "AWS Services Structure.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - RDS vs Aurora vs DynamoDB.md",
-    "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - RDS vs Aurora vs DynamoDB.md.tmp.1023.1769095286643",
     "AWS Services Structure/2 Storage & File Systems/Comparison - EBS Volume Types (gp2, gp3, io1, io2, st1, sc1).md",
     "AWS Services Structure/8 Application Integration/MQ - Broker for industry standards (MQTT, AMQP) lift and shift legacy apps.md",
     "AWS Services Structure/6 Monitoring, Management & Governance/Budgets - Set alerts when costs exceed thresholds.md",
