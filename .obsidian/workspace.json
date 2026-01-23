@@ -223,6 +223,8 @@
   },
   "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769130183082",
+    "AWS Services Structure/8 Application Integration/Step Functions - Visual workflow orchestration (State Machine).md.tmp.1023.1769129968579",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudTrail - Who did what (API Auditing).md.tmp.1023.1769129866084",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure.md.tmp.1023.1769126849991",
@@ -245,9 +247,7 @@
     "AWS Services Structure/4 Networking & Content Delivery/Cheat Sheet - Route 53 Routing Policies.md",
     "AWS Services Structure/4 Networking & Content Delivery/Cheat Sheet - Route 53 Routing Policies.md.tmp.1023.1769095448910",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - VPC Peering vs Transit Gateway vs PrivateLink.md",
-    "AWS Services Structure/4 Networking & Content Delivery/Comparison - VPC Peering vs Transit Gateway vs PrivateLink.md.tmp.1023.1769095413663",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - Athena vs Redshift vs EMR vs OpenSearch.md",
-    "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - Athena vs Redshift vs EMR vs OpenSearch.md.tmp.1023.1769095350217",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - ElastiCache Redis vs Memcached vs DAX.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Redshift Data Warehouse, Columnar storage (OLAP).md",
     "AWS Services Structure/3 Databases, Caching & Analytics/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
