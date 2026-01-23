@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure.md",
+                "file": "PROPOSED-STRUCTURE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Services Structure"
+              "title": "PROPOSED-STRUCTURE"
             }
           }
         ],
@@ -223,6 +223,7 @@
   },
   "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure.md",
     "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769130183082",
     "AWS Services Structure/8 Application Integration/Step Functions - Visual workflow orchestration (State Machine).md.tmp.1023.1769129968579",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudTrail - Who did what (API Auditing).md.tmp.1023.1769129866084",
@@ -245,7 +246,6 @@
     "AWS Services Structure/5 Security, Identity & Compliance/Comparison - KMS vs CloudHSM vs Secrets Manager vs Parameter Store.md.tmp.1023.1769095511156",
     "AWS Services Structure/4 Networking & Content Delivery/CloudFront CDN (Content Delivery Network), caching at Edge.md",
     "AWS Services Structure/4 Networking & Content Delivery/Cheat Sheet - Route 53 Routing Policies.md",
-    "AWS Services Structure/4 Networking & Content Delivery/Cheat Sheet - Route 53 Routing Policies.md.tmp.1023.1769095448910",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - VPC Peering vs Transit Gateway vs PrivateLink.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - Athena vs Redshift vs EMR vs OpenSearch.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - ElastiCache Redis vs Memcached vs DAX.md",
@@ -253,7 +253,6 @@
     "AWS Services Structure/3 Databases, Caching & Analytics/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
     "AWS Services Structure/3 Databases, Caching & Analytics/OpenSearch - Log analytics, search, dashboards (formerly Elasticsearch).md",
     "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
-    "AWS Services Structure.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - RDS vs Aurora vs DynamoDB.md",
     "AWS Services Structure/2 Storage & File Systems/Comparison - EBS Volume Types (gp2, gp3, io1, io2, st1, sc1).md",
     "AWS Services Structure/8 Application Integration/MQ - Broker for industry standards (MQTT, AMQP) lift and shift legacy apps.md",
