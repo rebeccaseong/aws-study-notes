@@ -223,6 +223,8 @@
   },
   "active": "6800b3d85aae398f",
   "lastOpenFiles": [
+    "AWS Services Structure/6 Monitoring, Management & Governance/CloudFormation - Infrastructure as Code (JSON YAML).md.tmp.1023.1769259776264",
+    "AWS Services Structure/3 Databases, Caching & Analytics/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md.tmp.1023.1769259650870",
     "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769259436018",
     "AWS Services Structure/1 Compute/EC2 (Elastic Compute Cloud) - Instances, AMIs, User Data, Spot vs On-Demand vs Reserved.md.tmp.1023.1769259331483",
     "AWS Services Structure/9 Developer Tools/CodeDeploy - Deploy to EC2, Lambda.md.tmp.1023.1769258664023",
@@ -236,8 +238,6 @@
     "AWS_Study_Notes_Review.md",
     "Unconfirmed 324387.crdownload",
     "AWS Services Structure.md",
-    "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769130183082",
-    "AWS Services Structure/8 Application Integration/Step Functions - Visual workflow orchestration (State Machine).md.tmp.1023.1769129968579",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
     "AWS Services Structure/8 Application Integration/Comparison - Step Functions vs SWF.md",
