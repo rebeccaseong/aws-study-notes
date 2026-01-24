@@ -376,7 +376,314 @@ Each object has a replication status:
 
 ---
 
-    - **S3 Object Lock:** Prevents objects from being deleted or overwritten for a fixed amount of time or indefinitely (Write-Once-Read-Many, or WORM model). Used for regulatory compliance.
+
+---
+
+## Deep Dive: S3 Object Lock (WORM - Write-Once-Read-Many)
+
+**What is it?** S3 Object Lock prevents objects from being deleted or overwritten for a fixed amount of time or indefinitely, implementing a **Write-Once-Read-Many (WORM)** model for regulatory compliance.
+
+---
+
+### **Key Concepts**
+
+| Feature | Details |
+|---------|---------|
+| **Purpose** | Prevent object deletion/modification for compliance (SEC, FINRA, HIPAA, etc.) |
+| **WORM Model** | Write-Once-Read-Many (immutable storage) |
+| **Requirement** | **Versioning must be enabled** (Object Lock works at version level) |
+| **Two Components** | **Retention Mode** + **Legal Hold** (can be used together or separately) |
+| **Enable Time** | Must be enabled at **bucket creation** (cannot enable on existing bucket) |
+
+**Exam Tip:** If the question mentions "**compliance**," "**immutable storage**," or "**prevent deletion**" → Object Lock
+
+---
+
+### **Retention Modes: Governance vs. Compliance**
+
+**This is the most tested distinction on the exam.**
+
+| Aspect | Governance Mode | Compliance Mode |
+|--------|----------------|-----------------|
+| **Protection Level** | Moderate | **Maximum** |
+| **Can Delete?** | ✅ Yes (with special permissions) | ❌ **NO** (nobody, not even root) |
+| **Can Shorten Retention?** | ✅ Yes (with special permissions) | ❌ **NO** |
+| **Can Extend Retention?** | ✅ Yes | ✅ Yes (anyone can extend) |
+| **Override Permission** | `s3:BypassGovernanceRetention` | ❌ **Cannot override** |
+| **Use Case** | Protect from accidental deletion, internal audits | **Strict regulatory compliance** (SEC, HIPAA) |
+| **Analogy** | Manager lock (supervisor can override) | Bank vault (nobody can open until timer expires) |
+
+**Exam Trigger Phrases:**
+
+| Phrase in Question | Answer |
+|-------------------|---------|
+| "Regulatory compliance (SEC, FINRA)" | **Compliance Mode** |
+| "Protect from accidental deletion by administrators" | **Governance Mode** |
+| "Absolutely cannot be deleted by anyone" | **Compliance Mode** |
+| "Can be overridden with special permissions" | **Governance Mode** |
+| "Internal testing before production compliance" | **Governance Mode** (test first, then Compliance) |
+
+---
+
+### **How Governance Mode Works**
+
+**What It Does:**
+- Prevents deletion/overwriting by most users
+- Allows users with `s3:BypassGovernanceRetention` permission to override
+
+**Use Cases:**
+- Protect production data from accidental deletion
+- Internal audit requirements (not external regulatory)
+- Testing Object Lock before moving to Compliance mode
+
+**How to Override (with Permission):**
+```bash
+aws s3api delete-object \
+  --bucket my-bucket \
+  --key my-object \
+  --version-id version-id \
+  --bypass-governance-retention
+```
+
+**Key Point:** Only users with `s3:BypassGovernanceRetention` permission can override
+
+---
+
+### **How Compliance Mode Works**
+
+**What It Does:**
+- **Absolutely prevents** deletion/overwriting by **anyone** (including root user)
+- Retention period **cannot be shortened** (can only be extended)
+- **No one** can bypass (not even AWS Support)
+
+**Use Cases:**
+- **Regulatory compliance:** SEC Rule 17a-4, FINRA, HIPAA, GDPR
+- **Legal preservation:** Court-ordered data retention
+- **Audit logs:** Immutable audit trails
+
+**Key Point:** Once an object version is locked in Compliance mode, it **cannot be deleted** until the retention period expires
+
+**Example:**
+- Object locked in Compliance mode for 7 years
+- Even if you delete the bucket, the object remains until 7 years expire
+- **No exceptions**
+
+---
+
+### **Retention Period**
+
+**What It Is:** The length of time an object version is protected from deletion/modification
+
+**Configuration:**
+- Set at **bucket level** (default retention for all new objects)
+- Set at **object level** (per-version retention)
+- Can specify retention until a specific **date** or for a **number of days**
+
+**Retention Period Options:**
+
+| Setting | Details |
+|---------|---------|
+| **Fixed Date** | Retain until specific date (e.g., 2030-12-31) |
+| **Number of Days** | Retain for X days from object creation (e.g., 2,555 days = 7 years) |
+| **No Retention** | Object not locked (can still use Legal Hold) |
+
+**Key Behaviors:**
+- ✅ Retention period **can be extended** (both Governance and Compliance)
+- ✅ Governance mode: Can be shortened (with `BypassGovernanceRetention` permission)
+- ❌ Compliance mode: **Cannot be shortened** (immutable)
+
+---
+
+### **Legal Hold**
+
+**What It Is:** An **on/off switch** that prevents deletion/modification **indefinitely** (no expiration date)
+
+**Key Differences from Retention:**
+
+| Feature | Retention Period | Legal Hold |
+|---------|------------------|------------|
+| **Duration** | Fixed time period | **Indefinite** (until manually removed) |
+| **Expiration** | Automatic (after period ends) | Manual (must be removed explicitly) |
+| **Permission to Remove** | N/A | `s3:PutObjectLegalHold` |
+| **Use Case** | Compliance (known duration) | **Litigation, investigations** (unknown duration) |
+
+**Use Cases:**
+- **Litigation hold:** Preserve evidence during legal investigation
+- **Pending investigation:** Freeze data until cleared
+- **Emergency freeze:** Immediately prevent deletion (add Legal Hold, then configure retention)
+
+**How to Set Legal Hold:**
+```bash
+aws s3api put-object-legal-hold \
+  --bucket my-bucket \
+  --key my-object \
+  --legal-hold Status=ON
+```
+
+**How to Remove Legal Hold:**
+- Requires `s3:PutObjectLegalHold` permission
+- Simply set `Status=OFF`
+
+**Key Point:** Legal Hold is **independent** of retention mode (can use both together)
+
+---
+
+### **Retention vs. Legal Hold (Side-by-Side)**
+
+| Aspect | Retention (Governance/Compliance) | Legal Hold |
+|--------|-----------------------------------|------------|
+| **Duration** | Fixed period (days/date) | Indefinite |
+| **Expiration** | Automatic | Manual removal required |
+| **Use Case** | Compliance (SEC, HIPAA) | Litigation, investigations |
+| **Can Extend?** | ✅ Yes | N/A (already indefinite) |
+| **Can Remove?** | Governance: Yes (with permission)<br>Compliance: No | ✅ Yes (with `PutObjectLegalHold` permission) |
+
+**Exam Tip:** Retention = **compliance/regulatory** (fixed period). Legal Hold = **litigation/investigation** (indefinite).
+
+---
+
+### **Bucket-Level vs. Object-Level Lock**
+
+**Bucket-Level (Default Retention):**
+- Set default retention for **all new objects** uploaded to bucket
+- Each new object automatically gets this retention
+- Objects can have **longer** retention (overriding default)
+
+**Object-Level (Per-Version Retention):**
+- Set retention on **specific object version**
+- Overrides bucket-level default
+- More granular control
+
+**Best Practice:**
+- Set bucket-level default for consistent compliance
+- Override at object-level when specific objects need longer/shorter retention
+
+---
+
+### **How to Enable S3 Object Lock**
+
+**Step 1:** Enable at bucket creation (cannot enable on existing bucket)
+```bash
+aws s3api create-bucket \
+  --bucket my-compliant-bucket \
+  --object-lock-enabled-for-bucket
+```
+
+**Step 2:** Enable versioning (automatic when Object Lock is enabled)
+
+**Step 3:** Set default retention (optional)
+```bash
+aws s3api put-object-lock-configuration \
+  --bucket my-compliant-bucket \
+  --object-lock-configuration \
+    'Mode=COMPLIANCE,Days=2555'
+```
+
+**Step 4:** Upload objects (they inherit default retention)
+
+**Key Point:** Once Object Lock is enabled on a bucket, it **cannot be disabled** (but you can stop setting retention on new objects)
+
+---
+
+### **Exam Scenarios**
+
+| Scenario | Solution |
+|----------|----------|
+| "SEC 17a-4 compliance (7-year retention)" | **Compliance Mode** with 2,555-day retention |
+| "Protect from accidental deletion by admins" | **Governance Mode** |
+| "Litigation hold (unknown duration)" | **Legal Hold** |
+| "Prevent deletion by anyone, including root" | **Compliance Mode** |
+| "Test retention policy before production" | **Governance Mode** (test, then switch to Compliance) |
+| "Audit logs must be immutable" | **Compliance Mode** |
+| "Need to extend retention period" | ✅ Both Governance and Compliance (can extend) |
+| "Need to shorten retention period" | **Governance Mode** only (with BypassGovernanceRetention permission) |
+| "Preserve evidence during investigation" | **Legal Hold** |
+| "7-year retention + litigation hold" | **Compliance Mode retention** + **Legal Hold** (use both together) |
+
+---
+
+### **Object Lifecycle with Object Lock**
+
+**What Happens When Retention Expires?**
+1. Object becomes **unlocked** (can be deleted/overwritten)
+2. Object is **not automatically deleted** (remains in bucket)
+3. Lifecycle policy can delete it **after retention expires**
+
+**Example:**
+- Compliance Mode: 7-year retention
+- Lifecycle Policy: Delete after 7 years + 1 day
+- **Result:** Object is locked for 7 years, then automatically deleted
+
+**Key Point:** Object Lock **prevents deletion** during retention. Lifecycle policies **can delete** after retention expires.
+
+---
+
+### **Cost Considerations**
+
+| Cost Component | Details |
+|----------------|---------|
+| **Object Lock** | ❌ **No additional cost** (free feature) |
+| **Versioning** | ✅ **Storage cost** for all versions (required for Object Lock) |
+| **Retention** | ✅ **Storage cost** for objects during retention (cannot delete to save cost) |
+| **Legal Hold** | ✅ **Storage cost** while Legal Hold is active |
+
+**Cost Optimization:**
+- Use **Governance Mode** for non-critical data (can delete with permission if needed)
+- Combine with **Lifecycle Policies** to delete objects **after retention expires**
+- Use **Intelligent-Tiering** or **Glacier** for long-term compliance data (reduces storage cost)
+
+---
+
+### **Key Exam Tips**
+
+1. **Versioning required** (Object Lock works at version level)
+2. **Enable at bucket creation only** (cannot enable on existing bucket)
+3. **Governance Mode:** Can override with `s3:BypassGovernanceRetention` permission
+4. **Compliance Mode:** **Cannot override** (not even root user)
+5. **Retention period can be extended** (both modes)
+6. **Retention period can be shortened:** Governance only (with permission)
+7. **Legal Hold = indefinite** (no expiration, manual removal)
+8. **Retention = fixed period** (automatic expiration)
+9. **Use both together:** Compliance Mode + Legal Hold (maximum protection)
+10. **Regulatory compliance (SEC, FINRA, HIPAA):** Compliance Mode
+11. **Litigation/investigation:** Legal Hold
+12. **Protect from accidental deletion:** Governance Mode
+13. **Lifecycle policies can delete** objects **after retention expires**
+14. **No additional cost** for Object Lock (pay only for storage of versions)
+15. **WORM model:** Write-Once-Read-Many (immutable storage)
+
+---
+
+### **Governance vs. Compliance Decision Tree**
+
+```
+Need to prevent object deletion?
+├─ Regulatory compliance (SEC, FINRA, HIPAA)?
+│  └─ YES → Compliance Mode (cannot override)
+├─ Accidental deletion protection?
+│  └─ YES → Governance Mode (can override with permission)
+├─ Litigation or investigation?
+│  └─ YES → Legal Hold (indefinite, manual removal)
+└─ Test retention before production?
+   └─ YES → Governance Mode (test), then switch to Compliance Mode
+```
+
+---
+
+### **Common Compliance Requirements**
+
+| Regulation | Requirement | S3 Object Lock Solution |
+|-----------|-------------|-------------------------|
+| **SEC Rule 17a-4** | 7-year immutable retention | Compliance Mode, 2,555 days |
+| **FINRA Rule 4511** | 6-year retention | Compliance Mode, 2,190 days |
+| **HIPAA** | 6-year medical records | Compliance Mode, 2,190 days |
+| **GDPR** | Right to erasure (delete on request) | ❌ **Do NOT use Object Lock** (conflicts with "right to be forgotten") |
+| **Sarbanes-Oxley** | Audit log retention | Compliance Mode with appropriate retention |
+
+**Exam Tip:** GDPR's "right to erasure" conflicts with Object Lock (Compliance Mode prevents deletion)
+
+---
+
 - **Performance Optimization**
     - **S3 Transfer Acceleration (S3TA):** For fast, secure uploads over long geographical distances. It uses AWS Edge Locations to route your traffic over the optimized AWS network backbone.
         - **Use Case:** A user in Europe needs to upload a large video file to a bucket in the US.
