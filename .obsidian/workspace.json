@@ -223,6 +223,7 @@
   },
   "active": "6800b3d85aae398f",
   "lastOpenFiles": [
+    "AWS Services Structure/9 Developer Tools/CodeDeploy - Deploy to EC2, Lambda.md.tmp.1023.1769258664023",
     "AWS Services Structure/5 Security, Identity & Compliance/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md.tmp.1023.1769233016808",
     "AWS Services Structure/8 Application Integration/EventBridge - Serverless Event Bus, Rules, Scheduler.md.tmp.1023.1769232864884",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudWatch - Metrics, Alarms, Logs (Performance).md.tmp.1023.1769232659342",
@@ -238,7 +239,6 @@
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudTrail - Who did what (API Auditing).md.tmp.1023.1769129866084",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure.md.tmp.1023.1769126849991",
-    "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md.tmp.1023.1769126595154",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
     "AWS Services Structure/8 Application Integration/Comparison - Step Functions vs SWF.md",
     "AWS Services Structure/8 Application Integration/Comparison - SQS vs SNS vs EventBridge vs MQ.md",
