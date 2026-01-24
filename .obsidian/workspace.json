@@ -223,6 +223,9 @@
   },
   "active": "6800b3d85aae398f",
   "lastOpenFiles": [
+    "AWS Services Structure/5 Security, Identity & Compliance/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md.tmp.1023.1769233016808",
+    "AWS Services Structure/8 Application Integration/EventBridge - Serverless Event Bus, Rules, Scheduler.md.tmp.1023.1769232864884",
+    "AWS Services Structure/6 Monitoring, Management & Governance/CloudWatch - Metrics, Alarms, Logs (Performance).md.tmp.1023.1769232659342",
     "AWS Well-Architected Framework.md",
     "AWS Well-Architected Framework.md.tmp.1023.1769232409026",
     "Cheat Sheet - Disaster Recovery Strategies.md",
@@ -237,10 +240,8 @@
     "AWS Services Structure.md.tmp.1023.1769126849991",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md.tmp.1023.1769126595154",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
-    "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md.tmp.1023.1769095693349",
     "AWS Services Structure/8 Application Integration/Comparison - Step Functions vs SWF.md",
     "AWS Services Structure/8 Application Integration/Comparison - SQS vs SNS vs EventBridge vs MQ.md",
-    "AWS Services Structure/8 Application Integration/Comparison - SQS vs SNS vs EventBridge vs MQ.md.tmp.1023.1769095689302",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - Global Accelerator vs CloudFront.md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - Security Groups vs NACLs.md",
     "AWS Services Structure/5 Security, Identity & Compliance/Comparison - KMS vs CloudHSM vs Secrets Manager vs Parameter Store.md",
@@ -258,7 +259,6 @@
     "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
     "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - RDS vs Aurora vs DynamoDB.md",
     "AWS Services Structure/2 Storage & File Systems/Comparison - EBS Volume Types (gp2, gp3, io1, io2, st1, sc1).md",
-    "AWS Services Structure/8 Application Integration/MQ - Broker for industry standards (MQTT, AMQP) lift and shift legacy apps.md",
     "AWS Services Structure/0 Concept/image.png",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
