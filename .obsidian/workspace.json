@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROPOSED-STRUCTURE.md",
+                "file": "AWS Services Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROPOSED-STRUCTURE"
+              "title": "AWS Services Structure"
             }
           }
         ],
@@ -221,8 +221,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6800b3d85aae398f",
+  "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Well-Architected Framework.md",
+    "AWS_Study_Notes_Review.md",
+    "Cheat Sheet - Disaster Recovery Strategies.md",
+    "PROPOSED-STRUCTURE.md",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudFormation - Infrastructure as Code (JSON YAML).md.tmp.1023.1769259776264",
     "AWS Services Structure/3 Databases, Caching & Analytics/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md.tmp.1023.1769259650870",
     "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769259436018",
@@ -231,12 +235,8 @@
     "AWS Services Structure/5 Security, Identity & Compliance/Cognito - Identity for Mobile Web Apps (User Pools = Auth, Identity Pools = AWS Access).md.tmp.1023.1769233016808",
     "AWS Services Structure/8 Application Integration/EventBridge - Serverless Event Bus, Rules, Scheduler.md.tmp.1023.1769232864884",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudWatch - Metrics, Alarms, Logs (Performance).md.tmp.1023.1769232659342",
-    "AWS Well-Architected Framework.md",
     "AWS Well-Architected Framework.md.tmp.1023.1769232409026",
-    "Cheat Sheet - Disaster Recovery Strategies.md",
     "Cheat Sheet - Disaster Recovery Strategies.md.tmp.1023.1769232294798",
-    "AWS_Study_Notes_Review.md",
-    "Unconfirmed 324387.crdownload",
     "AWS Services Structure.md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
