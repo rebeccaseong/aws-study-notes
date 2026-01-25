@@ -152,8 +152,8 @@ Instance Running → Hibernate → Save RAM to EBS → Stop → Start → Restor
 | **EBS Root Volume** | Must use EBS (not Instance Store) |
 | **Encryption** | Root volume **must be encrypted** |
 | **RAM Size** | Instance RAM must be **<150 GB** |
-| **Supported Families** | C3, C4, C5, M3, M4, M5, R3, R4, R5 (General Purpose, Compute, Memory optimized) |
-| **Supported OS** | Amazon Linux 2, Amazon Linux AMI, Ubuntu, Windows Server |
+| **Supported Families** | C5, C6i, C6a, M5, M6i, M6a, R5, R6i, R6a, T3, T3a (and their variants: d, n, etc.) |
+| **Supported OS** | Amazon Linux 2, Amazon Linux 2023, Ubuntu, Windows Server 2016+ |
 | **Root Volume Size** | Must be large enough to store RAM contents |
 
 **Exam Trigger:** If the question mentions Hibernate but the instance has **>150 GB RAM** → Hibernate is **not supported**

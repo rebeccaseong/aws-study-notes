@@ -562,8 +562,12 @@ aws s3api put-object-legal-hold \
 
 ### **How to Enable S3 Object Lock**
 
-**Step 1:** Enable at bucket creation (cannot enable on existing bucket)
+**Step 1:** Enable Object Lock
+- **New Buckets:** Enable at bucket creation (recommended)
+- **Existing Buckets:** Contact AWS Support to enable Object Lock (requires support ticket)
+
 ```bash
+# For new buckets
 aws s3api create-bucket \
   --bucket my-compliant-bucket \
   --object-lock-enabled-for-bucket
@@ -637,7 +641,7 @@ aws s3api put-object-lock-configuration \
 ### **Key Exam Tips**
 
 1. **Versioning required** (Object Lock works at version level)
-2. **Enable at bucket creation only** (cannot enable on existing bucket)
+2. **Enable at bucket creation** (recommended) or via **AWS Support** for existing buckets
 3. **Governance Mode:** Can override with `s3:BypassGovernanceRetention` permission
 4. **Compliance Mode:** **Cannot override** (not even root user)
 5. **Retention period can be extended** (both modes)
