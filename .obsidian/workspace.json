@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Services Structure.md",
+                "file": "AWS Services Structure/5 Security, Identity & Compliance/Systems Manager (SSM) - Patch Manager, Session Manager, Session Manager (No SSH needed).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Services Structure"
+              "title": "Systems Manager (SSM) - Patch Manager, Session Manager, Session Manager (No SSH needed)"
             }
           }
         ],
@@ -223,7 +223,13 @@
   },
   "active": "c3465012ac66779f",
   "lastOpenFiles": [
+    "AWS Services Structure/5 Security, Identity & Compliance/Systems Manager Parameter Store - Store config secrets (free tier).md",
+    "PROPOSED-STRUCTURE.md",
+    "PROPOSED-STRUCTURE.md.tmp.1023.1769318277765",
     "EXAM DAY CHEAT SHEET - SAA-C03.md",
+    "Cheat Sheet - Disaster Recovery Strategies.md",
+    "AWS Well-Architected Framework.md",
+    "AWS Services Structure.md",
     "AWS Services Structure/1 Compute/Lambda - Event-driven code, limits (15 min), Cold starts.md.tmp.1023.1769307616719",
     "AWS Services Structure/3 Databases, Caching & Analytics/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md.tmp.1023.1769307493890",
     "AWS Services Structure/6 Monitoring, Management & Governance/Trusted Advisor - Best practice checklist.md.tmp.1023.1769306735782",
@@ -231,14 +237,9 @@
     "AWS Services Structure/6 Monitoring, Management & Governance/Config - What does my infrastructure look like (Compliance Rules).md.tmp.1023.1769306431287",
     "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769306316927",
     "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769306308159",
-    "AWS Well-Architected Framework.md",
     "AWS_Study_Notes_Review.md",
-    "Cheat Sheet - Disaster Recovery Strategies.md",
-    "PROPOSED-STRUCTURE.md",
     "AWS Services Structure/6 Monitoring, Management & Governance/CloudFormation - Infrastructure as Code (JSON YAML).md.tmp.1023.1769259776264",
     "AWS Services Structure/3 Databases, Caching & Analytics/DynamoDB Key-value, single-digit millisecond latency, DAX, Streams, Global Tables.md.tmp.1023.1769259650870",
-    "AWS Services Structure/2 Storage & File Systems/S3 (Simple Storage Service) - Standard, Intelligent-Tiering, Glacier (Archive), Lifecycle Policies, Versioning.md.tmp.1023.1769259436018",
-    "AWS Services Structure.md",
     "AWS Services Structure/4 Networking & Content Delivery/Comparison - ALB vs NLB vs GWLB.md",
     "AWS Services Structure/9 Developer Tools/Cheat Sheet - CI CD Pipeline (Commit → Build → Deploy → Pipeline).md",
     "AWS Services Structure/8 Application Integration/Comparison - Step Functions vs SWF.md",
@@ -258,7 +259,6 @@
     "AWS Services Structure/3 Databases, Caching & Analytics/RDS (Relational Database Service) Managed Postgres MySQL etc., Multi-AZ (Disaster Recovery) vs Read Replicas (Performance).md",
     "AWS Services Structure/3 Databases, Caching & Analytics/OpenSearch - Log analytics, search, dashboards (formerly Elasticsearch).md",
     "AWS Services Structure/2 Storage & File Systems/Cheat Sheet - Storage.md",
-    "AWS Services Structure/3 Databases, Caching & Analytics/Comparison - RDS vs Aurora vs DynamoDB.md",
     "AWS Services Structure/0 Concept/image.png",
     "aws-study-notes/AWS Services Structure/VPC (Virtual Private Cloud) Fundamentals CIDR, Sub/image.png",
     "aws-study-notes/AWS Services Structure/Availability Zone and Region/image.png"
